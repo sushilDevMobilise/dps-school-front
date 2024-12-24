@@ -1,0 +1,28 @@
+#footer {
+  margin-left: -5px;
+  height: 58px;
+  padding: 24px 41px 24px 48px;
+  display: flex;
+  justify-content: end;
+}
+
+/* div#footer-text p {
+  margin: auto;
+} */
+
+/* #footer-text {
+  color: #152a06;
+  font-family: "Trebuchet MS";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+} */
+.footer-text {
+    text-align: right;
+    color: rgba(42, 41, 92, 0.60);
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+  }

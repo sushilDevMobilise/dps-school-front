@@ -1,0 +1,49 @@
+<div class="col-md-2 sidebar bg-white">
+  <!-- <div class="sidebar">
+    <div class="menu-header">
+        <div class="menu-title">Menu</div>
+        <div class="divider"></div>
+    </div>
+    <div class="menu-item active">
+      <img src="assets/img/radix-icons_dashboard.svg" alt="Solar Card"
+      class="w-18 h-18 me-2">
+        <div>Dashboard</div>
+    </div>
+    <div class="menu-item">
+      <img src="assets/img/noti.svg" alt="Solar Card" class="w-18 h-18 me-2">
+        <div>Notice Board</div>
+    </div>
+    <div class="menu-item">
+      <img src="assets/img/solar_card-linear.svg" alt="Solar Card"
+      class="w-18 h-18 me-2">
+        <div>Report Card</div>
+    </div>
+    <div class="menu-item">
+      <img src="assets/img/assig.svg" alt="Solar Card"
+      class="w-18 h-18 me-2">
+        <div>Assignments</div>
+    </div>
+    <div class="menu-item">
+      <img src="assets/img/remi.svg" alt="Solar Card" class="w-18 h-18 me-2">
+        <div>Fees</div>
+    </div>
+    <div class="menu-item">
+      <img src="assets/img/carbon_result.svg" alt="Solar Card" class="w-18 h-18 me-2">
+        <div>Certificates</div>
+    </div>
+    <div class="menu-item">
+      <img src="assets\img\material-symbols-light_event-note-outline.svg" alt="Solar Card" class="w-18 h-18 me-2">
+        <div>Events</div>
+    </div>
+    <div class="menu-item">
+      <img src="assets\img\material-symbols-light_event-note-outline.svg" alt="Solar Card" class="w-18 h-18 me-2">
+        <div>Important Contacts</div>
+    </div>
+</div> -->
+    <ul class="nav flex-column">
+      <li class="nav-item" *ngFor="let item of menuArr">
+        <a routerLink="{{item.link}}" routerLinkActive="router-link-active"  class="nav-link"><img src="assets/img/radix-icons_dashboard.svg" alt="Solar Card"
+            class="w-18 h-18 me-2">{{item.menu_desc}}</a>
+      </li>
+    </ul>
+  </div>

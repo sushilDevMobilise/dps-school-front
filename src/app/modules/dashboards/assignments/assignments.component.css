@@ -1,0 +1,104 @@
+.btntext {
+  color: #2a295c;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+}
+th {
+  color: #2a295c;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px; /* 157.143% */
+  text-transform: capitalize;
+}
+.row-head {
+  background: #e7e9f7;
+}
+td {
+  color: #2a295c;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+
+.ass-sub {
+  width: 61px;
+  height: 29px;
+  background: rgba(40, 56, 151, 0.15);
+  border-radius: 4px;
+  border: 1px #283897 solid;
+  text-align: center;
+}
+.eco-sub{
+    color: #F00;
+border-radius: 4px;
+border: 1px solid #F00;
+background: rgba(255, 0, 0, 0.15);
+width: 78px;
+height: 29px;
+text-align: center;
+}
+.geo-sub{
+    color: #EF661A;
+    border-radius: 4px;
+    border: 1px solid #EF661A;
+    background: rgba(239, 102, 26, 0.15);
+    width: 86px;
+    height: 29px;
+    text-align: center;
+}
+.dra-sub{
+    width: 69px;
+    height: 29px;
+    text-align: center;
+    border-radius: 4px;
+border: 1px solid #FCBD4C;
+background: rgba(252, 189, 76, 0.15);
+color: #FCBD4C;
+}
+.hin-sub{
+    border-radius: 4px;
+border: 1px solid #199CDA;
+background: rgba(25, 156, 218, 0.15);
+height: 29px;
+width: 49px;
+color: #199CDA;
+text-align: center;
+}
+.math-sub{
+    width: 48px;
+height: 29px;
+border-radius: 4px;
+border: 1px solid #34A866;
+background: rgba(52, 168, 102, 0.15);
+color: #34A866;
+text-align: center;
+}
+.his-sub{
+color: #EF661A;
+border-radius: 4px;
+border: 1px solid #EF661A;
+background: rgba(239, 102, 26, 0.15);
+width: 61px;
+height: 29px;
+text-align: center;
+}
+
+  table tr td,
+  table tr th{
+    border-left: none;
+  }
+  table tr td,
+  table tr th{
+    border-right: none; 
+}
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 1px solid #DEE2E6; /* Start border */
+}
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 1px solid #DEE2E6; /* End border */
+}
