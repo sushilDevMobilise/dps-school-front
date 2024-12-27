@@ -36,13 +36,13 @@ export class SidebarComponent {
       id : 4,
       menu_desc : "Fee",
       icon : "assets/img/noti.svg",
-      link : "/reminder"
+      link : "/fee"
     },
     {
       id : 5,
       menu_desc : "Report Card",
       icon : "assets/img/noti.svg",
-      link : "/reportCard"
+      link : "/report-card"
     },
     {
       id : 6,

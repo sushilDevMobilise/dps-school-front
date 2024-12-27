@@ -5,13 +5,17 @@ import { NoticeDashboardComponent } from './notice-dashboard/notice-dashboard.co
 import { AssignmentsComponent } from './assignments/assignments.component';
 import { ImportantContactsComponent } from './important-contacts/important-contacts.component';
 import { QueryComponent } from './query/query.component';
+import { FeeComponent } from './fee/fee.component';
+import { ReportCardComponent } from './report-card/report-card.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: StudDashboardComponent },
   { path: 'notice',component : NoticeDashboardComponent},
   { path: 'assignment', component: AssignmentsComponent},
   {path: 'important-contact', component: ImportantContactsComponent},
-  {path: "query",component:QueryComponent}
+  {path: "query",component:QueryComponent},
+  {path: 'fee' , component:FeeComponent},
+  {path: 'report-card' , component:ReportCardComponent}
 ];
 
 @NgModule({
