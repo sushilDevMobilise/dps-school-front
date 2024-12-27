@@ -6,6 +6,8 @@ import { StudDashboardComponent } from './stud-dashboard/stud-dashboard.componen
 import { AssignmentsComponent } from './assignments/assignments.component';
 import { ImportantContactsComponent } from './important-contacts/important-contacts.component';
 import { QueryComponent } from './query/query.component';
+import { FeeComponent } from './fee/fee.component';
+import { ReportCardComponent } from './report-card/report-card.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { QueryComponent } from './query/query.component';
     StudDashboardComponent,
     AssignmentsComponent,
     ImportantContactsComponent,
-    QueryComponent
+    QueryComponent,
+    FeeComponent,
+    ReportCardComponent
   ],
   imports: [
     CommonModule,
