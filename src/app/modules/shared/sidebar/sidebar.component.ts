@@ -34,7 +34,7 @@ export class SidebarComponent {
     },
     {
       id : 4,
-      menu_desc : "Fee Reminder",
+      menu_desc : "Fee",
       icon : "assets/img/noti.svg",
       link : "/reminder"
     },
@@ -52,9 +52,21 @@ export class SidebarComponent {
     },
     {
       id : 7,
-      menu_desc : "Admission",
+      menu_desc : "Event",
       icon : "assets/img/noti.svg",
       link : "/admission"
+    },
+    {
+      id : 8,
+      menu_desc : "Important Contact",
+      icon : "assets/img/noti.svg",
+      link : "/important-contact"
+    },
+    {
+      id : 9,
+      menu_desc : "Query",
+      icon : "assets/img/noti.svg",
+      link : "/query"
     },
   ];
 }

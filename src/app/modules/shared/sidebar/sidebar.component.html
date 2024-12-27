@@ -1,4 +1,4 @@
-<div class="col-md-2 sidebar bg-white">
+<div class="sidebar bg-white">
   <!-- <div class="sidebar">
     <div class="menu-header">
         <div class="menu-title">Menu</div>
@@ -41,6 +41,15 @@
     </div>
 </div> -->
     <ul class="nav flex-column">
+      <li>
+        <div class="menu">
+          <div class="menu-text">Menu</div>
+          <div class="menu-divider"></div>
+        </div>
+        
+        <!-- <p class="menuu mb-0">MENU</p>
+        <div style="flex: 1 1 0; height: 0px; border: 1px #E7E9F7 solid"></div> -->
+      </li>
       <li class="nav-item" *ngFor="let item of menuArr">
         <a routerLink="{{item.link}}" routerLinkActive="router-link-active"  class="nav-link"><img src="assets/img/radix-icons_dashboard.svg" alt="Solar Card"
             class="w-18 h-18 me-2">{{item.menu_desc}}</a>

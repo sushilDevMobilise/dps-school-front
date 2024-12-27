@@ -4,6 +4,8 @@ import { DashboardsRoutingModule } from './dashboards-routing.module';
 import { NoticeDashboardComponent } from './notice-dashboard/notice-dashboard.component';
 import { StudDashboardComponent } from './stud-dashboard/stud-dashboard.component';
 import { AssignmentsComponent } from './assignments/assignments.component';
+import { ImportantContactsComponent } from './important-contacts/important-contacts.component';
+import { QueryComponent } from './query/query.component';
 
 
 @NgModule({
@@ -11,6 +13,8 @@ import { AssignmentsComponent } from './assignments/assignments.component';
     NoticeDashboardComponent,
     StudDashboardComponent,
     AssignmentsComponent,
+    ImportantContactsComponent,
+    QueryComponent
   ],
   imports: [
     CommonModule,

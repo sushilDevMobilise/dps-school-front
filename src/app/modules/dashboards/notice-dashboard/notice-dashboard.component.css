@@ -4,6 +4,9 @@
   font-size: 14px;
   font-weight: 500;
   background: #fff;
+  border-radius: 4px;
+border: 1px solid #E0E0E0;
+
 }
 .dropdown-toggle::after {
   display: none;
@@ -129,7 +132,7 @@ background: rgba(252, 189, 76, 0.15);
 
   .notification-carrd {
   
-    padding: 22px 25px 34px 52px;
+    padding: 22px 25px 34px 18px;
     background: white;
     border-radius: 6px;
     overflow: hidden;
@@ -219,4 +222,10 @@ img {
 /* Add rotation when the 'rotate' class is applied */
 .rotate {
   transform: rotate(180deg);
+}
+
+.dropdown-item{
+  color: var(--2a295c, #2A295C);
+font-size: 13px;
+font-weight: 400;
 }
