@@ -121,3 +121,20 @@ button#quickbuttons{
   border-radius: 4px;
   background: var(--Color-Orange, #ef661a);
 }
+/* Colors */
+.blue {
+  background: #283897;
+  color: #fff;
+}
+.green {
+  background: #34A866;
+}
+.orange {
+  background: #EF671B;
+}
+.light-blue {
+  background: #199CDA;
+}
+.yellow {
+  background: #FCBD4C;
+}
