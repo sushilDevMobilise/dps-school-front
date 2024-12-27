@@ -5,7 +5,7 @@ import { NoticeDashboardComponent } from './notice-dashboard/notice-dashboard.co
 import { AssignmentsComponent } from './assignments/assignments.component';
 
 const routes: Routes = [
-  { path: '', component: StudDashboardComponent },
+  { path: 'dashboard', component: StudDashboardComponent },
   { path: 'notice',component : NoticeDashboardComponent},
   { path: 'assignment', component: AssignmentsComponent}
 ];
