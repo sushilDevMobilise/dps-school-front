@@ -380,6 +380,27 @@ border-radius: 4px;
 .calendar-dates li.disabled {
   color: #ddd;
 }
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators button {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Show navigation buttons and indicators on hover */
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next,
+.carousel:hover .carousel-indicators button {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Optional: Add custom styles for hover effects */
+.carousel-indicators button:hover {
+  background-color: white;
+  transform: scale(1.2);
+}
 
 .fee-item {
   display: flex;
@@ -654,7 +675,6 @@ border-radius: 4px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   gap: 10px;
 }
 

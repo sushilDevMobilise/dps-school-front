@@ -9,7 +9,7 @@
   .sidebar .nav-link {
     color: var(--2a295c, #2a295c);
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 8px;
   }
   .sidebar .nav-link.active {
