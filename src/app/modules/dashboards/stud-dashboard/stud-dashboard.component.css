@@ -333,7 +333,6 @@ border-radius: 4px;
 
 .calendar-header {
   display: flex;
-  width: 352px;
   justify-content: space-between;
   align-items: center;
 }
@@ -715,6 +714,9 @@ border-radius: 4px;
   justify-content: center;
   align-items: center;
   gap: 8px;
+  a {
+    text-decoration: none;
+  }
 }
 
 .fac-phone-number {
