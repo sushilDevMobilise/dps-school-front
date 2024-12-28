@@ -1,0 +1,85 @@
+.certificate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 19px;
+}
+
+.certificate-card {
+    width: 216px;
+    height: 238px;
+    position: relative;
+    background: #F0F0F0;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #E0E0E0;
+}
+
+.certificate-info {
+    width: 216px;
+    height: 88px;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    border: 1px solid #E0E0E0;
+}
+
+.certificate-details {
+    height: 61px;
+    padding-left: 9.5px;
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.certificate-title {
+    color: var(--2a295c, #2A295C);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.certificate-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.certificate-earned {
+    color: var(--2a295c, #2A295C);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.certificate-id {
+    color: rgba(42, 41, 92, 0.60);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.certificate-line {
+  
+    position: absolute;
+    right: 15.5px;
+    bottom: 14px;
+}
+
+.certificate-line::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: 7px;
+}
+
+.certificate-image {
+    /* width: 174px;
+    height: 123px; */
+    position: absolute;
+    left: 21px;
+    top: 15px;
+}

@@ -8,6 +8,8 @@ import { ImportantContactsComponent } from './important-contacts/important-conta
 import { QueryComponent } from './query/query.component';
 import { FeeComponent } from './fee/fee.component';
 import { ReportCardComponent } from './report-card/report-card.component';
+import { CertificateComponent } from './certificate/certificate.component';
+import { LibraryComponent } from './library/library.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { ReportCardComponent } from './report-card/report-card.component';
     ImportantContactsComponent,
     QueryComponent,
     FeeComponent,
-    ReportCardComponent
+    ReportCardComponent,
+    CertificateComponent,
+    LibraryComponent
   ],
   imports: [
     CommonModule,

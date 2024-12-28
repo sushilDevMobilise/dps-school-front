@@ -7,6 +7,8 @@ import { ImportantContactsComponent } from './important-contacts/important-conta
 import { QueryComponent } from './query/query.component';
 import { FeeComponent } from './fee/fee.component';
 import { ReportCardComponent } from './report-card/report-card.component';
+import { CertificateComponent } from './certificate/certificate.component';
+import { LibraryComponent } from './library/library.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: StudDashboardComponent },
@@ -15,7 +17,9 @@ const routes: Routes = [
   {path: 'important-contact', component: ImportantContactsComponent},
   {path: "query",component:QueryComponent},
   {path: 'fee' , component:FeeComponent},
-  {path: 'report-card' , component:ReportCardComponent}
+  {path: 'report-card' , component:ReportCardComponent},
+  {path: 'certificate' , component:CertificateComponent},
+  {path: 'library' , component:LibraryComponent}
 ];
 
 @NgModule({

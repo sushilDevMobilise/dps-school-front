@@ -1,0 +1,43 @@
+
+th {
+    color: #2a295c;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
+    text-transform: capitalize;
+  }
+  .table > :not(:first-child) {
+    border-top:none;
+  }
+  .row-head {
+    background: #e7e9f7;
+    
+  }
+  td {
+    color: #2a295c;
+    font-size: 14px;
+    font-style: normal;
+    background: #fff;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+  }
+  
+    table tr td,
+    table tr th{
+      border-left: none;
+    }
+    table tr td,
+    table tr th{
+      border-right: none; 
+  }
+  table tr td:first-child,
+  table tr th:first-child {
+    border-left: 1px solid #DEE2E6; /* Start border */
+  }
+  table tr td:last-child,
+  table tr th:last-child {
+    border-right: 1px solid #DEE2E6; /* End border */
+  }
+.view{
+    color: #283897;
+}

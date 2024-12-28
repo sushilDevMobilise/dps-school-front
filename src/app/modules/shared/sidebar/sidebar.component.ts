@@ -68,5 +68,11 @@ export class SidebarComponent {
       icon : "assets/img/noti.svg",
       link : "/query"
     },
+    {
+      id : 10,
+      menu_desc : "Library",
+      icon : "assets/img/noti.svg",
+      link : "/library"
+    },
   ];
 }
