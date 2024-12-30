@@ -10,6 +10,8 @@ import { FeeComponent } from './fee/fee.component';
 import { ReportCardComponent } from './report-card/report-card.component';
 import { CertificateComponent } from './certificate/certificate.component';
 import { LibraryComponent } from './library/library.component';
+import { TimeTableComponent } from './time-table/time-table.component';
+import { HolidayListComponent } from './holiday-list/holiday-list.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { LibraryComponent } from './library/library.component';
     FeeComponent,
     ReportCardComponent,
     CertificateComponent,
-    LibraryComponent
+    LibraryComponent,
+    TimeTableComponent,
+    HolidayListComponent
   ],
   imports: [
     CommonModule,

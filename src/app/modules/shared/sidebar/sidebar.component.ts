@@ -74,5 +74,17 @@ export class SidebarComponent {
       icon : "assets/img/noti.svg",
       link : "/library"
     },
+    {
+      id : 11,
+      menu_desc : "Time-Table",
+      icon : "assets/img/noti.svg",
+      link : "/time-table"
+    },
+    {
+      id : 12,
+      menu_desc : "Holiday List",
+      icon : "assets/img/noti.svg",
+      link : "/holiday"
+    },
   ];
 }

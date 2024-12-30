@@ -1,0 +1,133 @@
+.table-responsive {
+
+}
+th {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
+    text-transform: capitalize;
+  }
+  .table > :not(:first-child) {
+    border-top:none;
+  }
+  .row-head {
+    background: #fff;
+  }
+  td {
+    color: #2a295c;
+    font-size: 14px;
+    font-style: normal;
+    background: #fff;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+  }
+  
+    table tr td,
+    table tr th{
+      border-left: none;
+    }
+    table tr td,
+    table tr th{
+      border-right: none; 
+  }
+  table tr td:first-child,
+  table tr th:first-child {
+    border-left: 1px solid #DEE2E6; /* Start border */
+  }
+  table tr td:last-child,
+  table tr th:last-child {
+    border-right: 1px solid #DEE2E6; /* End border */
+  }
+
+  /* .time-table-card {
+    width: 174px;
+    height: 140px;
+    position: relative;
+    background: rgba(52, 168, 102, 0.15);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .time-table-subject {
+    position: absolute;
+    left: 15px;
+    top: 42px;
+    color: #2A295C;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .time-table-profile {
+    position: absolute;
+    left: 10px;
+    top: 82px;
+    padding: 5px 20px 5px 5px;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #E0E0E0;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .time-table-profile-image {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 0.5px solid #E0E0E0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time-table-profile-image img {
+    width: 70px;
+    height: 45.29px;
+  }
+  
+  .time-table-profile-name {
+    color: #2A295C;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .time-table-time {
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .time-table-icon {
+    width: 18px;
+    height: 18px;
+    position: relative;
+  }
+  
+  .time-table-inner-icon {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 1.5px;
+    top: 1.5px;
+    background: rgba(42, 41, 92, 0.8);
+  }
+  
+  .time-table-time-text {
+    color: rgba(42, 41, 92, 0.8);
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+   */
