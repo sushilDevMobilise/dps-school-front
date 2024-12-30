@@ -350,13 +350,16 @@ border-radius: 4px;
 
 .calendar-days li {
   font-weight: bold;
-  color: #6c757d;
+  color: #2a295c;
+  font-size: 14px;
 }
 
 .calendar-dates li {
   padding: 10px;
   border-radius: 50%;
   transition: background-color 0.3s;
+  color: #2A295C;
+  font-size: 14px;
 }
 
 .calendar-dates li:hover {
