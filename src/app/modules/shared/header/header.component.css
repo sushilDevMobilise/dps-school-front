@@ -31,17 +31,10 @@ line-height: 24px; /* 171.429% */
 
 
   .toggle-btn {
-    display: none;
-    position: fixed;
-    top: 10px;
-    left: 250px;
-    border-radius: 6px;
-    color: black;
-    border: none;
-    padding: 10px 15px;
     font-size: 18px;
     cursor: pointer;
-    z-index: 1000;
+    color: #2a295c;
+
 }
 
 .toggle-btn:hover {
@@ -62,4 +55,17 @@ line-height: 24px; /* 171.429% */
     .sidebar.active {
         left: 0;
     }
+}
+
+.cstm_link {
+  .nav-link {
+    color: var(--2a295c, #2a295c);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+  }
+  .active {
+    color: #2a295c;
+    background: #e7e9f7;
+  } 
 }

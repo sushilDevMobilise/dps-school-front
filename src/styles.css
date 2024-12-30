@@ -7,6 +7,7 @@ body {
 .main-content{
   background: #F5F6F9;;
   padding: 20px;
+  min-height: 82vh;
 }
 
 

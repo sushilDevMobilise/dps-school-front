@@ -123,7 +123,7 @@ background: rgba(252, 189, 76, 0.15);
   }
   
   .event-title {
-    width: 350px;
+    max-width: 350px;
     color: #2a295c;
     font-size: 16px;
     font-weight: 500;
