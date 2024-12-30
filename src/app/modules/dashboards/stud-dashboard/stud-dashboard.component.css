@@ -406,14 +406,41 @@ border-radius: 4px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 6px;
   width: 100%;
 }
 
 .icon-container {
   display: flex;
-  gap: 8px;
+  align-items: center;
 }
+
+.fee-description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.last-date {
+  margin-left: auto; /* Push the last date to the far end */
+  text-align: right;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  width: 24px; /* Adjust icon size */
+  height: 24px;
+}
+
+
+/* .icon-container {
+  display: flex;
+  gap: 8px;
+} */
 
 .icon {
   width: 42px;
@@ -590,7 +617,7 @@ border-radius: 4px;
   display: inline-flex;
 }
 .atte-days-text {
-  padding: 0px 14px 12px 14px;
+  padding: 0px 14px 16px 14px;
 }
 .atte-day-text {
   text-align: center;
