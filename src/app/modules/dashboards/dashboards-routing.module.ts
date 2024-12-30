@@ -9,6 +9,8 @@ import { FeeComponent } from './fee/fee.component';
 import { ReportCardComponent } from './report-card/report-card.component';
 import { CertificateComponent } from './certificate/certificate.component';
 import { LibraryComponent } from './library/library.component';
+import { TimeTableComponent } from './time-table/time-table.component';
+import { HolidayListComponent } from './holiday-list/holiday-list.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: StudDashboardComponent },
@@ -19,7 +21,9 @@ const routes: Routes = [
   {path: 'fee' , component:FeeComponent},
   {path: 'report-card' , component:ReportCardComponent},
   {path: 'certificate' , component:CertificateComponent},
-  {path: 'library' , component:LibraryComponent}
+  {path: 'library' , component:LibraryComponent},
+  {path: 'time-table' , component:TimeTableComponent},
+  {path: 'holiday' , component:HolidayListComponent}
 ];
 
 @NgModule({

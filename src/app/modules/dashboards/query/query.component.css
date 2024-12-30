@@ -223,3 +223,117 @@ border: 1px solid var(--283897, #283897);
 background: #283897;
 color: #fff;
   }
+
+  .card {
+   
+    padding: 16.5px 24px;
+    background: white;
+    border-radius: 6px;
+   
+    border: 1px solid #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  .icon-text {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .icon {
+    width: 42px;
+    height: 42px;
+    padding: 14px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .transport-icon {
+    background: rgba(40, 56, 151, 0.15);
+  }
+  
+  .studies-icon {
+    background: rgba(52, 168, 102, 0.15);
+  }
+  
+  .general-icon {
+    background: rgba(0, 60, 255, 0.10);
+  }
+  .admin-icon{
+
+background: rgba(239, 102, 26, 0.15);
+  }
+  .feedback-icon{
+    background: rgba(218, 32, 32, 0.15);
+  }
+  .fee-icon{
+    background: rgba(25, 156, 218, 0.15);
+  }
+  .report-icon{
+    background: rgba(252, 189, 76, 0.15);
+  }
+  .text {
+    color: #2A295C;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .badge {
+    width: 22px;
+    height: 22px;
+    padding: 0 5px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .transport-badge {
+    background: rgba(40, 56, 151, 0.15);
+    color: #283897;
+  }
+  
+  .studies-badge {
+    background: rgba(52, 168, 102, 0.15);
+    color: #34A866;
+  }
+  
+  .general-badge {
+    background: rgba(0, 60, 255, 0.15);
+    color: #003CFF;
+  }
+  .admin-badge{
+    color: #EF661A;
+background: rgba(239, 102, 26, 0.15);
+  }
+  .feedback-badge{
+    color: #DA2020;
+    background: rgba(218, 32, 32, 0.15);
+  }
+  .fee-badge{
+    background: rgba(25, 156, 218, 0.15);
+    color: #199CDA;
+  }
+  .report-badge{
+    background: rgba(252, 189, 76, 0.15);
+    color: #FCBD4C;
+  }
+  .divider {
+    height: 1px;
+    background: #E0E0E0;
+    margin: 10px 0;
+  }
+  

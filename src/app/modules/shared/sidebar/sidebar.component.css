@@ -3,9 +3,9 @@
     min-height: 100vh;
     padding: 20px 10px;
   }
-  .sidebar ul.nav.flex-column {
+   .sidebar ul.nav.flex-column {
     position: fixed;
-  }
+  } 
   .sidebar .nav-link {
     color: var(--2a295c, #2a295c);
     font-size: 14px;
