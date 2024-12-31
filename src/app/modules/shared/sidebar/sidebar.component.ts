@@ -86,5 +86,11 @@ export class SidebarComponent {
       icon : "assets/img/noti.svg",
       link : "/holiday"
     },
+    {
+      id : 13,
+      menu_desc : "Important Links",
+      icon : "assets/img/noti.svg",
+      link : "/important-links"
+    },
   ];
 }

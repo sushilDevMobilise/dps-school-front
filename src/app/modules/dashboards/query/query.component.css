@@ -336,4 +336,47 @@ background: rgba(239, 102, 26, 0.15);
     background: #E0E0E0;
     margin: 10px 0;
   }
-  
+  .view-all-response {
+        border-radius: 6px;
+        border: 1px solid var(--Color-Stroke-Color, #E0E0E0);
+        background: #FFF;
+        margin-top: 5px;
+    }
+    .user-view-profile {
+        border-radius: 70px;
+        border: 2px solid #E7E9F7;
+        background: #FFF;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+    }
+    .card-header.dpscard-header {
+        background: #F9FAFF;
+    }
+    .dps-card-view {
+        padding: 15px 20px;
+        position: relative;
+    }
+    .user-view-profile.img-1:after {
+        content: "";
+        border-left: 2px dashed #E0E0E0;
+        position: absolute;
+        width: 400px;
+        left: 39px;
+        height: 100%;
+        top: 60px;
+    }
+    textarea#floatingTextarea2 {
+        background: rgba(42, 41, 92, 0.06);
+    }
+    .dps-card-view .card:before {
+        color: transparent;
+        content: "gshghg";
+         /* background: url(assets\img\query\dps-chat-arrow.svg);  */
+        background-repeat: no-repeat;
+        font-size: 15px;
+        background-size: contain;
+        position: absolute;
+        top: 5px;
+        left: -11px;
+    }

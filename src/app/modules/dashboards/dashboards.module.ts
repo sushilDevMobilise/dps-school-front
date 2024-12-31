@@ -12,6 +12,7 @@ import { CertificateComponent } from './certificate/certificate.component';
 import { LibraryComponent } from './library/library.component';
 import { TimeTableComponent } from './time-table/time-table.component';
 import { HolidayListComponent } from './holiday-list/holiday-list.component';
+import { ImportantLinksComponent } from './important-links/important-links.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { HolidayListComponent } from './holiday-list/holiday-list.component';
     CertificateComponent,
     LibraryComponent,
     TimeTableComponent,
-    HolidayListComponent
+    HolidayListComponent,
+    ImportantLinksComponent
   ],
   imports: [
     CommonModule,

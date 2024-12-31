@@ -793,87 +793,169 @@
           <div class="header mt-3 d-flex justify-content-between align-items-center mb-2 px-3 border-bottom">
             <h5 class="card-title mb-3">Class Faculties</h5>
             <div class="fac-arrow d-flex justify-content-between align-items-center">
-              <button class="btn btn-light btn-sm">
-                <img src="assets\img\flowbite_angle-left-outline.svg" class="gap-2" alt="">
+              <button class="btn btn-light btn-sm" data-bs-target="#facultyCarousel" data-bs-slide="prev">
+                <img src="assets/img/flowbite_angle-left-outline.svg" class="gap-2" alt="">
               </button>
-              <button class="btn btn-light btn-sm">
-                <img src="assets\img\flowbite_angle-right-outline.svg" class="" alt="">
+              <button class="btn btn-light btn-sm" data-bs-target="#facultyCarousel" data-bs-slide="next">
+                <img src="assets/img/flowbite_angle-right-outline.svg" class="" alt="">
               </button>
             </div>
           </div>
-          <div class="fac-faculty-list px-3">
-            <div class="fac-card">
-              <div class="fac-card-content">
-                <div class="fac-profile">
-                  <img class="fac-avatar" src="assets\img\image 45.png" alt="Avatar">
-                  <div class="fac-info">
-                    <p class="mb-0 fac-name">Ramesh</p>
-                    <p class="fac-subject">Chemistry</p>
+      
+          <!-- Carousel Start -->
+          <div id="facultyCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <!-- Slide 1 -->
+              <div class="carousel-item active">
+                <div class="row px-3">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="fac-card">
+                      <div class="fac-card-content">
+                        <div class="fac-profile">
+                          <img class="fac-avatar" src="assets/img/image 45.png" alt="Avatar">
+                          <div class="fac-info">
+                            <p class="mb-0 fac-name">Ramesh</p>
+                            <p class="fac-subject">Chemistry</p>
+                          </div>
+                        </div>
+                        <div class="fac-contact">
+                          <div class="fac-phone">
+                            <img src="assets/img/solar_phone-linear.svg">
+                            <a href="tel:9999112523" class="fac-phone-number">9999112523</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="fac-contact">
-                  <div class="fac-phone">
-                    <img src="assets\img\solar_phone-linear.svg">
-                    <a href="tel:9999112523" class="fac-phone-number">9999112523</a>
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="fac-card">
+                      <div class="fac-card-content">
+                        <div class="fac-profile">
+                          <img class="fac-avatar" src="assets/img/student.png" alt="Avatar">
+                          <div class="fac-info">
+                            <p class="fac-name mb-0">Aaradhya</p>
+                            <p class="fac-subject">Physics</p>
+                          </div>
+                        </div>
+                        <div class="fac-contact">
+                          <div class="fac-phone">
+                            <img src="assets/img/solar_phone-linear.svg">
+                            <a href="tel:9999112523" class="fac-phone-number">9999112523</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                    <div class="fac-card">
+                      <div class="fac-card-content">
+                        <div class="fac-profile">
+                          <img class="fac-avatar" src="assets/img/istockphoto-508956644-612x612.png" alt="Avatar">
+                          <div class="fac-info">
+                            <p class="fac-name mb-0">Shubhi</p>
+                            <p class="fac-subject mb-0">English</p>
+                          </div>
+                        </div>
+                        <div class="fac-contact">
+                          <div class="fac-phone">
+                            <img src="assets/img/solar_phone-linear.svg">
+                            <a href="tel:9999112523" class="fac-phone-number">9999112523</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                    <div class="fac-card">
+                      <div class="fac-card-content">
+                        <div class="fac-profile">
+                          <img class="fac-avatar" src="assets/img/premium_photo-1689530775582-83b8abdb5020 1.png" alt="Avatar">
+                          <div class="fac-info">
+                            <p class="fac-name mb-0">Rishi</p>
+                            <p class="fac-subject mb-0">Math</p>
+                          </div>
+                        </div>
+                        <div class="fac-contact">
+                          <div class="fac-phone">
+                            <img src="assets/img/solar_phone-linear.svg">
+                            <a href="tel:9999112523" class="fac-phone-number">9999112523</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="fac-card">
-              <div class="fac-card-content">
-                <div class="fac-profile">
-                  <img class="fac-avatar" src="assets\img\student.png" alt="Avatar">
-                  <div class="fac-info">
-                    <p class="fac-name mb-0">Aaradhya </p>
-                    <p class="fac-subject">Physics</p>
+              <!-- Slide 2 -->
+              <div class="carousel-item">
+                <div class="row px-3">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="fac-card">
+                      <div class="fac-card-content">
+                        <div class="fac-profile">
+                          <img class="fac-avatar" src="assets/img/image 45.png" alt="Avatar">
+                          <div class="fac-info">
+                            <p class="mb-0 fac-name">Ramesh</p>
+                            <p class="fac-subject">Chemistry</p>
+                          </div>
+                        </div>
+                        <div class="fac-contact">
+                          <div class="fac-phone">
+                            <img src="assets/img/solar_phone-linear.svg">
+                            <a href="tel:9999112523" class="fac-phone-number">9999112523</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="fac-contact">
-                  <div class="fac-phone">
-                    <img src="assets\img\solar_phone-linear.svg">
-                    <a href="tel:9999112523" class="fac-phone-number">9999112523</a>
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="fac-card">
+                      <div class="fac-card-content">
+                        <div class="fac-profile">
+                          <img class="fac-avatar" src="assets/img/student.png" alt="Avatar">
+                          <div class="fac-info">
+                            <p class="fac-name mb-0">Aaradhya</p>
+                            <p class="fac-subject">Physics</p>
+                          </div>
+                        </div>
+                        <div class="fac-contact">
+                          <div class="fac-phone">
+                            <img src="assets/img/solar_phone-linear.svg">
+                            <a href="tel:9999112523" class="fac-phone-number">9999112523</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="fac-card">
-              <div class="fac-card-content">
-                <div class="fac-profile">
-                  <img class="fac-avatar" src="assets\img\istockphoto-508956644-612x612.png" alt="Avatar">
-                  <div class="fac-info">
-                    <p class="fac-name mb-0">Shubhi</p>
-                    <p class="fac-subject mb-0">English</p>
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="fac-card">
+                      <div class="fac-card-content">
+                        <div class="fac-profile">
+                          <img class="fac-avatar" src="assets/img/premium_photo-1689530775582-83b8abdb5020 1.png" alt="Avatar">
+                          <div class="fac-info">
+                            <p class="fac-name mb-0">Rishi</p>
+                            <p class="fac-subject mb-0">Math</p>
+                          </div>
+                        </div>
+                        <div class="fac-contact">
+                          <div class="fac-phone">
+                            <img src="assets/img/solar_phone-linear.svg">
+                            <a href="tel:9999112523" class="fac-phone-number">9999112523</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="fac-contact">
-                  <div class="fac-phone">
-                    <img src="assets\img\solar_phone-linear.svg">
-                    <a href="tel:9999112523" class="fac-phone-number">9999112523</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="fac-card">
-              <div class="fac-card-content">
-                <div class="fac-profile">
-                  <img class="fac-avatar" src="assets\img\premium_photo-1689530775582-83b8abdb5020 1.png" alt="Avatar">
-                  <div class="fac-info">
-                    <p class="fac-name mb-0">Rishi</p>
-                    <p class="fac-subject mb-0">Math</p>
-                  </div>
-                </div>
-                <div class="fac-contact">
-                  <div class="fac-phone">
-                    <img src="assets\img\solar_phone-linear.svg">
-                    <a href="tel:9999112523" class="fac-phone-number">9999112523</a>
-                  </div>
+                  <!-- Repeat the same structure for other cards -->
                 </div>
               </div>
             </div>
           </div>
+          <!-- Carousel End -->
         </div>
       </div>
+      
+    
     </div>
   </div>
 </div>
