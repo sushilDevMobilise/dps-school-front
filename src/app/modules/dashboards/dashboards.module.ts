@@ -13,6 +13,7 @@ import { LibraryComponent } from './library/library.component';
 import { TimeTableComponent } from './time-table/time-table.component';
 import { HolidayListComponent } from './holiday-list/holiday-list.component';
 import { ImportantLinksComponent } from './important-links/important-links.component';
+import { EventComponent } from './event/event.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ImportantLinksComponent } from './important-links/important-links.compo
     LibraryComponent,
     TimeTableComponent,
     HolidayListComponent,
-    ImportantLinksComponent
+    ImportantLinksComponent,
+    EventComponent
   ],
   imports: [
     CommonModule,

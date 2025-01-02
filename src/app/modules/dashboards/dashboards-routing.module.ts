@@ -12,6 +12,7 @@ import { LibraryComponent } from './library/library.component';
 import { TimeTableComponent } from './time-table/time-table.component';
 import { HolidayListComponent } from './holiday-list/holiday-list.component';
 import { ImportantLinksComponent } from './important-links/important-links.component';
+import { EventComponent } from './event/event.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: StudDashboardComponent },
@@ -25,7 +26,8 @@ const routes: Routes = [
   {path: 'library' , component:LibraryComponent},
   {path: 'time-table' , component:TimeTableComponent},
   {path: 'holiday' , component:HolidayListComponent},
-  {path: 'important-links', component:ImportantLinksComponent}
+  {path: 'important-links', component:ImportantLinksComponent},
+  {path: 'event' , component:EventComponent}
 ];
 
 @NgModule({

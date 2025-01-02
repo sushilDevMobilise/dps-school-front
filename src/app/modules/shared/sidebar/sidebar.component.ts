@@ -54,7 +54,7 @@ export class SidebarComponent {
       id : 7,
       menu_desc : "Event",
       icon : "assets/img/noti.svg",
-      link : "/admission"
+      link : "/event"
     },
     {
       id : 8,

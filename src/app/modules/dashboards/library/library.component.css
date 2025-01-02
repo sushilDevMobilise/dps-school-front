@@ -38,3 +38,61 @@ th {
   table tr th:last-child {
     border-right: 1px solid #DEE2E6; /* End border */
   }
+  .cheout{
+    display: flex;
+width: 95px;
+height: 29px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #f00;
+border-radius: 4px;
+border: 1px solid #F00;
+background: rgba(255, 0, 0, 0.15);
+  }
+  .available{
+    display: flex;
+    color: #283897;
+width: 69.446px;
+height: 29px;
+padding: 5px 4px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+border: 1px solid #283897;
+background: rgba(40, 56, 151, 0.15);
+  }
+
+  .search-container {
+    width: 241px;
+    height: 33px;
+    padding: 0 16px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #7E8ACC;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+  }
+  
+  .search-content {
+    flex: 1 1 0;
+    height: 18px;
+    padding-left: 4px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+  }
+
+  .search-text {
+    flex: 1 1 0;
+    color: rgba(42, 41, 92, 0.60);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    word-wrap: break-word;
+  }
+  
