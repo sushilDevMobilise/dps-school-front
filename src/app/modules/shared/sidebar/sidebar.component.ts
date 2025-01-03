@@ -92,5 +92,17 @@ export class SidebarComponent {
       icon : "assets/img/noti.svg",
       link : "/important-links"
     },
+    {
+      id : 14,
+      menu_desc : "Attendance & Leave",
+      icon : "assets/img/noti.svg",
+      link : "/attendance-leave"
+    },
+    {
+      id : 15,
+      menu_desc : "Daily Task",
+      icon : "assets/img/noti.svg",
+      link : "/daily-task"
+    },
   ];
 }

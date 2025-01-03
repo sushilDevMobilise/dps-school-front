@@ -13,6 +13,8 @@ import { TimeTableComponent } from './time-table/time-table.component';
 import { HolidayListComponent } from './holiday-list/holiday-list.component';
 import { ImportantLinksComponent } from './important-links/important-links.component';
 import { EventComponent } from './event/event.component';
+import { AttendanceLeaveComponent } from './attendance-leave/attendance-leave.component';
+import { DailyTaskComponent } from './daily-task/daily-task.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: StudDashboardComponent },
@@ -27,7 +29,9 @@ const routes: Routes = [
   {path: 'time-table' , component:TimeTableComponent},
   {path: 'holiday' , component:HolidayListComponent},
   {path: 'important-links', component:ImportantLinksComponent},
-  {path: 'event' , component:EventComponent}
+  {path: 'event' , component:EventComponent},
+  {path: 'attendance-leave' , component:AttendanceLeaveComponent},
+  {path: 'daily-task' , component:DailyTaskComponent}
 ];
 
 @NgModule({

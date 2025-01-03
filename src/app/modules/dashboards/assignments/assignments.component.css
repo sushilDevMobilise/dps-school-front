@@ -161,3 +161,15 @@ table tr th:last-child {
 font-size: 13px;
 font-weight: 400;
 }
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pagination-info {
+  white-space: nowrap;
+}
+.page-link{
+  border: 0px;
+}

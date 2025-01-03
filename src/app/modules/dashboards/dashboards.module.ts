@@ -14,6 +14,8 @@ import { TimeTableComponent } from './time-table/time-table.component';
 import { HolidayListComponent } from './holiday-list/holiday-list.component';
 import { ImportantLinksComponent } from './important-links/important-links.component';
 import { EventComponent } from './event/event.component';
+import { AttendanceLeaveComponent } from './attendance-leave/attendance-leave.component';
+import { DailyTaskComponent } from './daily-task/daily-task.component';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { EventComponent } from './event/event.component';
     TimeTableComponent,
     HolidayListComponent,
     ImportantLinksComponent,
-    EventComponent
+    EventComponent,
+    AttendanceLeaveComponent,
+    DailyTaskComponent
   ],
   imports: [
     CommonModule,

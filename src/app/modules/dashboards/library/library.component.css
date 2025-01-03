@@ -63,6 +63,18 @@ border-radius: 4px;
 border: 1px solid #283897;
 background: rgba(40, 56, 151, 0.15);
   }
+  .return{
+    color: #34A866;
+    display: flex;
+    width: 65px;
+    height: 29px;
+    padding: 5px 7px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+border: 1px solid #34A866;
+background: rgba(52, 168, 102, 0.15);
+  }
 
   .search-container {
     width: 241px;
@@ -95,4 +107,12 @@ background: rgba(40, 56, 151, 0.15);
     line-height: 18px;
     word-wrap: break-word;
   }
-  
+  .nav-pills .nav-link, .nav-pills .show > .nav-link {
+    color: #283897;
+}
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #283897;
+    background-color: #fff;
+    border-bottom: 3px solid #283897;
+    border-radius: 0%;
+}

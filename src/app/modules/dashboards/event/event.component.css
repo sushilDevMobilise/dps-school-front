@@ -60,7 +60,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #283897 !important;
+  background-color: #283897;
 }
 
 .event-info {
@@ -94,7 +94,7 @@
 .event-date {
   position: absolute;
   bottom: 0;
-  left: 0px;
+  left: 4px;
   right: 0px;
   padding: 8px;
   background: rgba(40, 56, 151, 0.15);
@@ -103,4 +103,100 @@
   font-size: 12px;
 
   font-weight: 500;
+}
+.event-date-green{
+  position: absolute;
+  bottom: 0;
+  left: 4px;
+  right: 0px;
+  padding: 8px;
+  background: rgba(52, 168, 102, 0.15);
+  font-size: 12px;
+  color: #34a866;
+  font-size: 12px;
+  font-weight: 500;
+}
+.icon-box-green {
+  height: 42px;
+  width: 42px;
+  background: rgba(52, 168, 102, 0.15);
+}
+.side-bar-green {
+  width: 4px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #34a866;
+}
+.event-date-orange{
+  position: absolute;
+  bottom: 0;
+  left: 4px;
+  right: 0px;
+  padding: 8px;
+  background: rgba(239, 102, 26, 0.15);
+  font-size: 12px;
+  color: #ef661a;
+  font-size: 12px;
+  font-weight: 500;
+}
+.icon-box-orange {
+  height: 42px;
+  width: 42px;
+  background: rgba(239, 102, 26, 0.15);
+}
+.side-bar-orange {
+  width: 4px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ef661a;
+}
+.event-date-lightblue{
+  position: absolute;
+  bottom: 0;
+  left: 4px;
+  right: 0px;
+  padding: 8px;
+  background: rgba(25, 156, 218, 0.15);
+  font-size: 12px;
+  color: #199cda;
+  font-size: 12px;
+  font-weight: 500;
+}
+.icon-box-lightblue {
+  height: 42px;
+  width: 42px;
+  background: rgba(25, 156, 218, 0.15);
+}
+.side-bar-lightblue {
+  width: 4px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #199cda;
+}
+.event-date-yellow{
+  position: absolute;
+  bottom: 0;
+  left: 4px;
+  right: 0px;
+  padding: 8px;
+  background: rgba(252, 189, 76, 0.15);
+  font-size: 12px;
+  color: #fcbd4c;
+  font-size: 12px;
+  font-weight: 500;
+}
+.icon-box-yellow {
+  height: 42px;
+  width: 42px;
+  background: rgba(252, 189, 76, 0.15);
+}
+.side-bar-yellow{
+  width: 4px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fcbd4c;
 }

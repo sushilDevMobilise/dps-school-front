@@ -1,0 +1,329 @@
+<div class="main-content p-3">
+    <div class="header">
+        <h3 class="mb-4 text">Attendance & Leave</h3>
+    </div>
+    <div class="d-flex  justify-content-between gap-4">
+        <!-- Present Card -->
+         <div>
+             <div class="d-inline-flex flex-column align-items-start justify-content-center ps-3 p-2 gap-2 carrd">
+                 <div class="d-flex align-items-center">
+                     <div class="text-uppercase present-text">
+                         Present
+                     </div>
+                 </div>
+                 <div class="d-flex align-items-center gap-4">
+                     <div class="position-relative">
+                         <img src="assets/img/attendance & leave/Group 2156.svg" alt="Present Icon">
+                     </div>
+                     <div class="present-num">
+                         142
+                     </div>
+                 </div>
+             </div>
+     
+             <!-- Absent Card -->
+             <div class="d-inline-flex flex-column align-items-start justify-content-center ms-2 ps-3 p-2 gap-2 carrd">
+                 <div class="d-flex align-items-center">
+                     <div class="text-uppercase present-text">
+                         Absent
+                     </div>
+                 </div>
+                 <div class="d-flex align-items-center gap-4">
+                     <div class="position-relative d-flex flex-column align-items-center justify-content-center absect-icon">
+                         <img src="assets/img/attendance & leave/Frame 1597883157.svg" alt="Absent Icon">
+                     </div>
+                     <div class="present-num">
+                         71
+                     </div>
+                 </div>
+             </div>
+     
+             <!-- On Leaves Card -->
+             <div class="d-inline-flex flex-column align-items-start justify-content-center ms-2 ps-3 p-2 gap-2 carrd">
+                 <div class="d-flex align-items-center">
+                     <div class="text-uppercase present-text">
+                         ON LEAVES
+                     </div>
+                 </div>
+                 <div class="d-flex align-items-center gap-4">
+                     <div
+                         class="position-relative onleave-icon d-flex flex-column align-items-center justify-content-center">
+                         <img src="assets/img/attendance & leave/Layer 2.svg" alt="On Leave Icon">
+                     </div>
+                     <div class="present-num">
+                         148
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div>
+
+             <button type="button" class="btn queerry " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                 Apply Leave
+             </button>
+         </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header p-2 px-3">
+                    <h5 class="modal-title" id="exampleModalLabel">Apply Leave</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="query-form">
+                        <div class="form-group">
+                            <label for="category" class="modal-text ">Leave Type</label>
+                            <select id="category" id="form-control" class="form-control mb-2">
+                                <option value="" disabled selected>Select</option>
+                                <option value="1" class="modal-text">Sick Leave</option>
+                                <option value="2" class="modal-text">Emergency Leave</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sub-category" class="modal-text ">From </label>
+                            <select id="sub-category" id="form-control" class="form-control mb-2">
+                                <option value="" disabled selected>Select</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sub-category" class="modal-text ">To</label>
+                            <select id="sub-category" id="form-control" class="form-control mb-2">
+                                <option value="" disabled selected>Select</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sub-category" class="modal-text ">Number of Days </label>
+                            <select id="sub-category" id="form-control" class="form-control mb-2">
+                                <option value="" disabled selected>Select</option>
+                            </select>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="query" class="modal-text ">Write your Query</label>
+                            <textarea id="query" class="form-control modal-text queryy" rows="4"
+                                placeholder="Type your query here..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="file" class="modal-text ">Attach File</label>
+
+                            <div class="form-group">
+                                <input type="file" id="file" class="form-control-file">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer p-1">
+                    <button type="button" class="btn" id="cancel" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" id="submit" class="btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body p-0">
+                    <div class="header mt-3 d-flex justify-content-between align-items-center mb-2  border-bottom">
+                        <div class="col-12 d-flex flex-column">
+                            <!-- Tabs Navigation -->
+                            <div class="nav nav-pills px-3 border-bottom  mb-3" id="v-pills-tab" role="tablist">
+                                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                                    aria-selected="true">Attendance</button>
+                                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-profile" type="button" role="tab"
+                                    aria-controls="v-pills-profile" aria-selected="false">Leave</button>
+                            </div>
+
+                            <!-- Tabs Content -->
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <!-- Attendance Tab -->
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                    aria-labelledby="v-pills-home-tab">
+                                    <div class="d-flex flex-wrap align-items-center mb-3">
+                                        <!-- Search Containers -->
+                                        <div class="search-container ms-2">
+                                            <div class="search-content">
+                                                <div class="search-text">Year</div>
+                                                <img src="assets/img/attendance & leave/stash_data-date.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="search-container ms-2">
+                                            <div class="search-content">
+                                                <div class="search-text">Month</div>
+                                                <img src="assets/img/attendance & leave/stash_data-date.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="searcch-container ms-2">
+                                            <div class="searcch-content">
+                                                <div class="searcch-text">Search</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Attendance Table -->
+                                    <div class="row mt-3">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead class="thead-light">
+                                                    <tr class="row-head">
+                                                        <th>Sr. No.</th>
+                                                        <th>Date</th>
+                                                        <th>Day</th>
+                                                        <th>Attendance</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1.</td>
+                                                        <td>01 Jan 2025</td>
+                                                        <td>Wednesday</td>
+                                                        <td>Present</td>
+                                                        <td>Present</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2.</td>
+                                                        <td>02 Jan 2025</td>
+                                                        <td>Thursday</td>
+                                                        <td>Present</td>
+                                                        <td>Present</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3.</td>
+                                                        <td>03 Jan 2025</td>
+                                                        <td>Friday</td>
+                                                        <td>Absent</td>
+                                                        <td>Absent</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4.</td>
+                                                        <td>04 Jan 2025</td>
+                                                        <td>Saturday</td>
+                                                        <td>Present</td>
+                                                        <td>Present</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5.</td>
+                                                        <td>05 Jan 2025</td>
+                                                        <td>Sunday</td>
+                                                        <td>Absent</td>
+                                                        <td>Absent</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6.</td>
+                                                        <td>06 Jan 2025</td>
+                                                        <td>Monday</td>
+                                                        <td>Present</td>
+                                                        <td>Present</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>7.</td>
+                                                        <td>07 Jan 2025</td>
+                                                        <td>Tuesday</td>
+                                                        <td>Absent</td>
+                                                        <td>Absent</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>8.</td>
+                                                        <td>08 Jan 2025</td>
+                                                        <td>Wednesday</td>
+                                                        <td>Present</td>
+                                                        <td>Present</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>9.</td>
+                                                        <td>09 Jan 2025</td>
+                                                        <td>Thursday</td>
+                                                        <td>Present</td>
+                                                        <td>Present</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>10.</td>
+                                                        <td>10 Jan 2025</td>
+                                                        <td>Friday</td>
+                                                        <td>Absent</td>
+                                                        <td>Absent</td>
+
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Leave Tab -->
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                    aria-labelledby="v-pills-profile-tab">
+                                    <div class="d-flex flex-wrap align-items-center mb-3">
+                                        <!-- Search Containers -->
+                                        <div class="search-container ms-2">
+                                            <div class="search-content">
+                                                <div class="search-text">Start Date</div>
+                                                <img src="assets/img/attendance & leave/stash_data-date.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="search-container ms-2">
+                                            <div class="search-content">
+                                                <div class="search-text">End Date</div>
+                                                <img src="assets/img/attendance & leave/stash_data-date.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="searcch-container ms-2">
+                                            <div class="searcch-content">
+                                                <div class="searcch-text">Search</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Leave Table -->
+                                    <div class="row mt-3">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead class="thead-light">
+                                                    <tr class="row-head">
+                                                        <th class="text-nowrap">Sr. No.</th>
+                                                        <th class="text-nowrap">Leave Type</th>
+                                                        <th class="text-nowrap">Applied On</th>
+                                                        <th>Reason</th>
+                                                        <th class="text-nowrap">Applied For</th>
+                                                        <th class="text-nowrap">No of Days</th>
+                                                        <th>Status</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1.</td>
+                                                        <td>Casual Leave</td>
+                                                        <td>01/01/2025</td>
+                                                        <td>Lorem ipsum dolor sit amet...</td>
+                                                        <td>02/02/2025</td>
+                                                        <td>02</td>
+                                                        <td>Approved</td>
+                                                    </tr>
+                                                    <!-- Additional rows... -->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
