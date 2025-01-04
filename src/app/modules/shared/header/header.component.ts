@@ -55,7 +55,7 @@ export class HeaderComponent {
       id : 7,
       menu_desc : "Event",
       icon : "assets/img/noti.svg",
-      link : "/admission"
+      link : "/event"
     },
     {
       id : 8,
@@ -86,6 +86,24 @@ export class HeaderComponent {
       menu_desc : "Holiday List",
       icon : "assets/img/noti.svg",
       link : "/holiday"
+    },
+    {
+      id : 13,
+      menu_desc : "Important Links",
+      icon : "assets/img/noti.svg",
+      link : "/important-links"
+    },
+    {
+      id : 14,
+      menu_desc : "Attendance & Leave",
+      icon : "assets/img/noti.svg",
+      link : "/attendance-leave"
+    },
+    {
+      id : 15,
+      menu_desc : "Daily Task",
+      icon : "assets/img/noti.svg",
+      link : "/daily-task"
     },
   ];
 }

@@ -11,7 +11,9 @@ th {
   }
   .row-head {
     background: #e7e9f7;
-    
+  }
+  .table-responsive{
+    margin-bottom: -18px;
   }
   td {
     color: #2a295c;
@@ -30,14 +32,14 @@ th {
     table tr th{
       border-right: none; 
   }
-  table tr td:first-child,
+  /* table tr td:first-child,
   table tr th:first-child {
-    border-left: 1px solid #DEE2E6; /* Start border */
+    border-left: 1px solid #DEE2E6; 
   }
   table tr td:last-child,
   table tr th:last-child {
-    border-right: 1px solid #DEE2E6; /* End border */
-  }
+    border-right: 1px solid #DEE2E6;
+  } */
   .cheout{
     display: flex;
 width: 95px;
@@ -116,3 +118,6 @@ background: rgba(52, 168, 102, 0.15);
     border-bottom: 3px solid #283897;
     border-radius: 0%;
 }
+/* table tr:last-child {
+  border-bottom: none;
+} */

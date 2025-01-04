@@ -161,15 +161,51 @@ table tr th:last-child {
 font-size: 13px;
 font-weight: 400;
 }
-.pagination-container {
+/* .pagination-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-}
+} */
 .pagination-info {
   white-space: nowrap;
 }
 .page-link{
+  text-align: center;
   border: 0px;
+  border-radius: 2px;
+  background: #E7E9F7;
+}
+.page-item{
+  width: 30px;
+  height: 30px;
+}
+#page-num{
+  text-decoration: none;
+  color: #6C757D;
+  font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+}
+/* .pagination .page-item.active a {
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 2px;
+background: var(--Primary-Blue, #283897);
+} */
+.pagination-info{
+  color: var(--dark-blue-80, rgba(42, 41, 92, 0.80));
+font-size: 14px;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+}
+.page-number{
+  border-radius: 4px;
+  width: 51px;
+height: 30px;
 }

@@ -1,3 +1,6 @@
+#card-body{
+  margin-bottom: -8px;
+}
 .search-container {
     width: 241px;
     height: 40px;
@@ -41,7 +44,9 @@ padding: 7px 20px;
   .searcch-text{
     color: #283897;
   }
-  
+     .table-responsive{
+    margin-bottom: -18px;
+  } 
 th {
     color: #2a295c;
     font-size: 14px;
@@ -69,14 +74,14 @@ th {
       border-left: none;
       border-right: none; 
   }
-  table tr td:first-child,
+  /* table tr td:first-child,
   table tr th:first-child {
-    border-left: 1px solid #DEE2E6; /* Start border */
+    border-left: 1px solid #DEE2E6; 
   }
   table tr td:last-child,
   table tr th:last-child {
-    border-right: 1px solid #DEE2E6; /* End border */
-  }
+    border-right: 1px solid #DEE2E6;
+  } */
   .nav-pills .nav-link, .nav-pills .show > .nav-link {
     color: #2a295c;
 }
