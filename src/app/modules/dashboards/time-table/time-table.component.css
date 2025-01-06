@@ -40,8 +40,8 @@ th {
     border-right: 1px solid #DEE2E6; /* End border */
   }
 
-  /* .time-table-card {
-    width: 174px;
+  .time-table-card {
+ 
     height: 140px;
     position: relative;
     background: rgba(52, 168, 102, 0.15);
@@ -51,7 +51,7 @@ th {
   
   .time-table-subject {
     position: absolute;
-    left: 15px;
+    left: 13px;
     top: 42px;
     color: #2A295C;
     font-size: 15px;
@@ -87,34 +87,34 @@ th {
   }
   
   .time-table-profile-image img {
-    width: 70px;
+ 
     height: 45.29px;
   }
   
   .time-table-profile-name {
     color: #2A295C;
-    font-size: 14px;
-    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    line-height: 1;
     font-weight: 500;
     word-wrap: break-word;
   }
   
   .time-table-time {
-    position: absolute;
+     position: absolute;
     left: 15px;
     top: 12px;
+    align-items: center; 
     display: inline-flex;
-    align-items: center;
     gap: 4px;
   }
   
-  .time-table-icon {
+  /* .time-table-icon {
     width: 18px;
     height: 18px;
     position: relative;
   }
-  
-  .time-table-inner-icon {
+   */
+  /* .time-table-inner-icon {
     width: 15px;
     height: 15px;
     position: absolute;
@@ -122,12 +122,12 @@ th {
     top: 1.5px;
     background: rgba(42, 41, 92, 0.8);
   }
-  
+   */
   .time-table-time-text {
     color: rgba(42, 41, 92, 0.8);
-    font-size: 14px;
+    font-size: 12px;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
     word-wrap: break-word;
   }
-   */
+   

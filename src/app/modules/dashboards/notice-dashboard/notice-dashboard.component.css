@@ -3,9 +3,9 @@
   text-align: center;
   font-size: 14px;
   font-weight: 500;
-  background: #fff;
   border-radius: 4px;
-border: 1px solid #E0E0E0;
+  border: 1px solid var(--Color-Light-Blue, #7E8ACC);
+  background: #FFF;
 
 }
 .dropdown-toggle::after {
