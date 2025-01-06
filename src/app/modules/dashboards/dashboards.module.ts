@@ -16,6 +16,7 @@ import { ImportantLinksComponent } from './important-links/important-links.compo
 import { EventComponent } from './event/event.component';
 import { AttendanceLeaveComponent } from './attendance-leave/attendance-leave.component';
 import { DailyTaskComponent } from './daily-task/daily-task.component';
+import { PhotoGalleryComponent } from './photo-gallery/photo-gallery.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { DailyTaskComponent } from './daily-task/daily-task.component';
     ImportantLinksComponent,
     EventComponent,
     AttendanceLeaveComponent,
-    DailyTaskComponent
+    DailyTaskComponent,
+    PhotoGalleryComponent
   ],
   imports: [
     CommonModule,

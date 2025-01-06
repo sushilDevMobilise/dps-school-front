@@ -51,6 +51,7 @@ export class SidebarComponent {
       children: [
         { id: 14, menu_desc: 'Attendance & Leave', icon: '', link: '/attendance-leave' },
         { id: 6, menu_desc: 'Certificate', icon: '', link: '/certificate' },
+        { id: 18, menu_desc: 'Photo Gallery', icon:'', link:'/photo-gallery'}
       ],
     },
     {

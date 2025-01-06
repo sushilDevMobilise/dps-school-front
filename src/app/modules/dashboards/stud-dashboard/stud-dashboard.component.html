@@ -463,115 +463,257 @@
     <div class="col-lg-4 mb-sm-3 mb-lg-0">
       <div class="card">
         <div class="card-body p-0 pb-3">
-          <div class="header mt-3 d-flex justify-content-between align-items-center mb-3 px-3 border-bottom">
+          <div class="header mt-3 d-flex justify-content-between align-items-center  px-2 border-bottom">
             <h5 class="card-title mb-3">Fee Reminder</h5>
             <a href="https://example.com" target="_blank"> <img src="assets\img\Frame 1597883679.svg"
               class="mb-3"></a>
           </div>
+          <div class="header  d-flex justify-content-between align-items-center ">
+            <div class="col-12 d-flex flex-column">
+                <!-- Tabs Navigation -->
+                <div class="nav nav-pills px-2 border-bottom  " id="v-pills-tab" role="tablist">
+                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true">Regular Fee</button>
+                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-profile" type="button" role="tab"
+                        aria-controls="v-pills-profile" aria-selected="false">Miscellaneous Fee</button>
+                </div>
 
-          <div class="fee-item px-3 mb-3">
-            <div class="icon-container">
-              <div class="icon bluee">
-                <img src="assets\img\ion_bus-outline.svg">
-              </div>
-            </div>
-            <div class="fee-description">
-              <p class="fee-name mb-0">Transport Fees</p>
-              <div class="fee-amount">
-                <p class="amount mb-0">2500</p>
-              </div>
-            </div>
-            <div class="last-date">
-              <p class="last-date-label mb-0">Last Date</p>
-              <p class="last-date-value mb-0">25 May 2024</p>
-            </div>
-          </div>
-          <div class="fee-item px-3 mb-3">
-            <div class="icon-container">
-              <div class="icon greeen">
-                <img src="assets\img\mingcute_book-5-line.svg">
-              </div>
-            </div>
-            <div class="fee-description">
-              <p class="fee-name mb-0">Book Fees</p>
-              <div class="fee-amount">
-                <p class="amount mb-0">2500</p>
-              </div>
-            </div>
-            <div class="last-date">
-              <p class="last-date-label mb-0">Last Date</p>
-              <p class="last-date-value mb-0">25 May 2024</p>
-            </div>
-          </div>
+                <!-- Tabs Content -->
+                <div class="tab-content" id="v-pills-tabContent">
+                    <!-- Attendance Tab -->
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <div class="d-flex flex-wrap align-items-center mb-3">
+                            <!-- Search Containers -->
+                        </div>
 
-          <div class="fee-item px-3 mb-3">
-            <div class="icon-container">
-              <div class="icon orangee">
-                <img src="assets\img\quill_paper.svg">
-              </div>
+                        <!-- Attendance Table -->
+                        <div class="fee-item px-3 mb-2">
+                          <div class="icon-container">
+                            <div class="icon bluee">
+                             <p class="regular-fee box-text-blue mb-0">25 May</p>
+                            </div>
+                          </div>
+                          <div class="fee-description">
+                            <p class="fee-name mb-0">April To June</p>
+                            <div class="fee-amount">
+                              <p class="amount mb-0"> <img src="assets\img\mdi_rupee.svg" alt=""> 2500</p>
+                            </div>
+                          </div>
+                          <div class="last-date">
+                            <p class="last-date-label mb-0">Last Date</p>
+                            <p class="last-date-value mb-0">25 May 2024</p>
+                          </div>
+                        </div>
+                        <div class="fee-item px-3 mb-2">
+                          <div class="icon-container">
+                            <div class="icon greeen">
+                             <p class="regular-fee box-text-green mb-0 ">25 Jul</p>
+                            </div>
+                          </div>
+                          <div class="fee-description">
+                            <p class="fee-name mb-0">July To August</p>
+                            <div class="fee-amount">
+                              <p class="amount mb-0"><img src="assets\img\mdi_rupee.svg" alt="">2500</p>
+                            </div>
+                          </div>
+                          <div class="last-date">
+                            <p class="last-date-label mb-0">Last Date</p>
+                            <p class="last-date-value mb-0">25 July 2024</p>
+                          </div>
+                        </div>
+              
+                        <div class="fee-item px-3 mb-2">
+                          <div class="icon-container">
+                            <div class="icon orangee">
+                              <p class="regular-fee box-text-orange mb-0 ">21 Sep</p>
+                            </div>
+                          </div>
+                          <div class="fee-description">
+                            <p class="fee-name mb-0">September</p>
+                            <div class="fee-amount">
+                              <p class="amount mb-0"><img src="assets\img\mdi_rupee.svg" alt="">2500</p>
+                            </div>
+                          </div>
+                          <div class="last-date">
+                            <p class="last-date-label mb-0">Last Date</p>
+                            <p class="last-date-value mb-0">21 Sep 2024</p>
+                          </div>
+                        </div>
+                        <div class="fee-item px-3 mb-2">
+                          <div class="icon-container">
+                            <div class="icon bllue">
+                              <p class="regular-fee box-text-lightblue mb-0 ">11 Oct</p>
+                            </div>
+                          </div>
+                          <div class="fee-description">
+                            <p class="fee-name mb-0">October</p>
+                            <div class="fee-amount">
+                              <p class="amount mb-0"><img src="assets\img\mdi_rupee.svg" alt="">2500</p>
+                            </div>
+                          </div>
+                          <div class="last-date">
+                            <p class="last-date-label mb-0">Last Date</p>
+                            <p class="last-date-value mb-0">11 Oct 2024</p>
+                          </div>
+                        </div>
+                        <div class="fee-item px-3 mb-2">
+                          <div class="icon-container">
+                            <div class="icon yeellow">
+                              <p class="regular-fee box-text-yellow mb-0 ">15 Nov</p>
+                            </div>
+                          </div>
+                          <div class="fee-description">
+                            <p class="fee-name mb-0 text-nowrap">November To January</p>
+                            <div class="fee-amount">
+                              <p class="amount mb-0"><img src="assets\img\mdi_rupee.svg" alt="">2500</p>
+                            </div>
+                          </div>
+                          <div class="last-date">
+                            <p class="last-date-label mb-0">Last Date</p>
+                            <p class="last-date-value mb-0">15 Nov 2024</p>
+                          </div>
+                        </div>
+                        <div class="fee-item px-3 mb-1">
+                          <div class="icon-container">
+                            <div class="icon orangee">
+                              <p class="regular-fee box-text-red mb-0 ">21 Feb</p>
+                            </div>
+                          </div>
+                          <div class="fee-description">
+                            <p class="fee-name mb-0 text-nowrap">February To March</p>
+                            <div class="fee-amount">
+                              <p class="amount mb-0"><img src="assets\img\mdi_rupee.svg" alt="">2500</p>
+                            </div>
+                          </div>
+                          <div class="last-date">
+                            <p class="last-date-label mb-0">Last Date</p>
+                            <p class="last-date-value mb-0">21 Feb 2024</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <!-- Leave Tab -->
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+                        <div class="d-flex flex-wrap align-items-center mb-2">
+                            <!-- Search Containers -->
+                        </div>
+                        <div class="fee-item px-3 mb-2">
+                          <div class="icon-container">
+                            <div class="icon bluee">
+                              <img src="assets\img\ion_bus-outline.svg">
+                            </div>
+                          </div>
+                          <div class="fee-description">
+                            <p class="fee-name mb-0">Transport Fees</p>
+                            <div class="fee-amount">
+                              <p class="amount mb-0"><img src="assets\img\mdi_rupee.svg" alt="">2500</p>
+                            </div>
+                          </div>
+                          <div class="last-date">
+                            <p class="last-date-label mb-0">Last Date</p>
+                            <p class="last-date-value mb-0">25 May 2024</p>
+                          </div>
+                        </div>
+                        <div class="fee-item px-3 mb-2">
+                          <div class="icon-container">
+                            <div class="icon greeen">
+                              <img src="assets\img\mingcute_book-5-line.svg">
+                            </div>
+                          </div>
+                          <div class="fee-description">
+                            <p class="fee-name mb-0">Book Fees</p>
+                            <div class="fee-amount">
+                              <p class="amount mb-0"><img src="assets\img\mdi_rupee.svg" alt="">2500</p>
+                            </div>
+                          </div>
+                          <div class="last-date">
+                            <p class="last-date-label mb-0">Last Date</p>
+                            <p class="last-date-value mb-0">25 May 2024</p>
+                          </div>
+                        </div>
+              
+                        <div class="fee-item px-3 mb-2">
+                          <div class="icon-container">
+                            <div class="icon orangee">
+                              <img src="assets\img\quill_paper.svg">
+                            </div>
+                          </div>
+                          <div class="fee-description">
+                            <p class="fee-name mb-0">Exam Fees</p>
+                            <div class="fee-amount">
+                              <p class="amount mb-0"><img src="assets\img\mdi_rupee.svg" alt="">2500</p>
+                            </div>
+                          </div>
+                          <div class="last-date">
+                            <p class="last-date-label mb-0">Last Date</p>
+                            <p class="last-date-value mb-0">25 May 2024</p>
+                          </div>
+                        </div>
+                        <div class="fee-item px-3 mb-2">
+                          <div class="icon-container">
+                            <div class="icon bllue">
+                              <img src="assets\img\ph_bowl-food.svg">
+                            </div>
+                          </div>
+                          <div class="fee-description">
+                            <p class="fee-name mb-0">Mess Fees</p>
+                            <div class="fee-amount">
+                              <p class="amount mb-0"><img src="assets\img\mdi_rupee.svg" alt="">2500</p>
+                            </div>
+                          </div>
+                          <div class="last-date">
+                            <p class="last-date-label mb-0">Last Date</p>
+                            <p class="last-date-value mb-0">25 May 2024</p>
+                          </div>
+                        </div>
+                        <div class="fee-item px-3 mb-2">
+                          <div class="icon-container">
+                            <div class="icon yeellow">
+                              <img src="assets\img\carbon_hotel.svg">
+                            </div>
+                          </div>
+                          <div class="fee-description">
+                            <p class="fee-name mb-0">Hostel</p>
+                            <div class="fee-amount">
+                              <p class="amount mb-0"><img src="assets\img\mdi_rupee.svg" alt="">2500</p>
+                            </div>
+                          </div>
+                          <div class="last-date">
+                            <p class="last-date-label mb-0">Last Date</p>
+                            <p class="last-date-value mb-0">25 May 2024</p>
+                          </div>
+                        </div>
+                        <div class="fee-item px-3 mb-2">
+                          <div class="icon-container">
+                            <div class="icon orangee">
+                              <img src="assets\img\material-symbols-light_local-library-outline.svg">
+                            </div>
+                          </div>
+                          <div class="fee-description">
+                            <p class="fee-name mb-0">Library Fee</p>
+                            <div class="fee-amount">
+                              <p class="amount mb-0"><img src="assets\img\mdi_rupee.svg" alt="">2500</p>
+                            </div>
+                          </div>
+                          <div class="last-date">
+                            <p class="last-date-label mb-0">Last Date</p>
+                            <p class="last-date-value mb-0">25 May 2024</p>
+                          </div>
+                        </div>
+                        <!-- Leave Table -->
+                      
+                    </div>
+                </div>
             </div>
-            <div class="fee-description">
-              <p class="fee-name mb-0">Exam Fees</p>
-              <div class="fee-amount">
-                <p class="amount mb-0">2500</p>
-              </div>
-            </div>
-            <div class="last-date">
-              <p class="last-date-label mb-0">Last Date</p>
-              <p class="last-date-value mb-0">25 May 2024</p>
-            </div>
-          </div>
-          <div class="fee-item px-3 mb-3">
-            <div class="icon-container">
-              <div class="icon bllue">
-                <img src="assets\img\ph_bowl-food.svg">
-              </div>
-            </div>
-            <div class="fee-description">
-              <p class="fee-name mb-0">Mess Fees</p>
-              <div class="fee-amount">
-                <p class="amount mb-0">2500</p>
-              </div>
-            </div>
-            <div class="last-date">
-              <p class="last-date-label mb-0">Last Date</p>
-              <p class="last-date-value mb-0">25 May 2024</p>
-            </div>
-          </div>
-          <div class="fee-item px-3 mb-3">
-            <div class="icon-container">
-              <div class="icon yeellow">
-                <img src="assets\img\carbon_hotel.svg">
-              </div>
-            </div>
-            <div class="fee-description">
-              <p class="fee-name mb-0">Hostel</p>
-              <div class="fee-amount">
-                <p class="amount mb-0">2500</p>
-              </div>
-            </div>
-            <div class="last-date">
-              <p class="last-date-label mb-0">Last Date</p>
-              <p class="last-date-value mb-0">25 May 2024</p>
-            </div>
-          </div>
-          <div class="fee-item px-3 mb-2">
-            <div class="icon-container">
-              <div class="icon orangee">
-                <img src="assets\img\material-symbols-light_local-library-outline.svg">
-              </div>
-            </div>
-            <div class="fee-description">
-              <p class="fee-name mb-0">Library Fee</p>
-              <div class="fee-amount">
-                <p class="amount mb-0">2500</p>
-              </div>
-            </div>
-            <div class="last-date">
-              <p class="last-date-label mb-0">Last Date</p>
-              <p class="last-date-value mb-0">25 May 2024</p>
-            </div>
-          </div>
+
+        </div>
+
+
+          
         </div>
       </div>
     </div>
@@ -598,23 +740,8 @@
                 <li><a class="dropdown-item" href="#">Apr</a></li>
               </ul>
             </div>
-            <!-- Right-aligned icons and date -->
-            <!-- <div class="d-flex align-items-center">
-                <img src="assets\img\calendar.svg" class="mb-2 mt-1">
-                <p class="week mt-1 mb-2">This Week</p>
-                <img src="assets\img\uil_angle-down.svg" class=" mt-1 mb-2">
-              </div> -->
           </div>
-
-          <!-- <div class="header mt-3 d-flex justify-content-between align-items-center mb-2 px-3 border-bottom">
-              <h5 class="card-title  mb-3">Attendance</h5>
-
-              <img src="assets\img\calendar.svg" class="mb-3">
-              <p>This Week</p>
-              <img src="assets\img\uil_angle-down.svg" class="mb-3">
-            </div> -->
-
-          <div class="atte-working-days">
+       <div class="atte-working-days">
             <div class="atte-working-days-text">
               <div class="card mx-3 mt-3">
                 <div class="atte-summary-row">
@@ -804,9 +931,9 @@
             <div class="carousel-inner">
               <!-- Slide 1 -->
               <div class="carousel-item active">
-                <div class="row px-3">
+                <div class="row px-3 mt-2">
                   <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="fac-card">
+                    <div class="fac-card mb-3">
                       <div class="fac-card-content">
                         <div class="fac-profile">
                           <img class="fac-avatar" src="assets/img/image 45.png" alt="Avatar">
@@ -885,7 +1012,7 @@
               </div>
               <!-- Slide 2 -->
               <div class="carousel-item">
-                <div class="row px-3">
+                <div class="row px-3 mt-2">
                   <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="fac-card">
                       <div class="fac-card-content">

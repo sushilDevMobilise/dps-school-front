@@ -507,6 +507,39 @@ border-radius: 4px;
   line-height: 24px;
 }
 
+.nav-pills .nav-link, .nav-pills .show > .nav-link {
+  color: #2A295C;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #2A295C;
+  background-color: #fff;
+  border-bottom: 3px solid #2a295c;
+  border-radius: 0%;
+}
+.regular-fee{
+text-align: center;
+font-size: 12px;
+font-weight: 500;
+line-height: 14px; /* 116.667% */
+}
+.box-text-blue{
+  color: #283897;
+}
+.box-text-green{
+  color: #34a866;
+}
+.box-text-orange{
+  color: #EF661A;
+}
+.box-text-lightblue{
+  color: #199cda;
+}
+.box-text-yellow{
+  color: #fcbd4c;
+}
+.box-text-red{
+  color: #DA2020;
+}
 .last-date {
   width: 96px;
   display: flex;
@@ -793,4 +826,3 @@ border: 0.931px solid #E0E0E0;
 background: var(--Color-Very-Light-Blue, #F9FAFF);
   } */
 
-  

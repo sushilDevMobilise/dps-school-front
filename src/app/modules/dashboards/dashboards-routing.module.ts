@@ -15,6 +15,7 @@ import { ImportantLinksComponent } from './important-links/important-links.compo
 import { EventComponent } from './event/event.component';
 import { AttendanceLeaveComponent } from './attendance-leave/attendance-leave.component';
 import { DailyTaskComponent } from './daily-task/daily-task.component';
+import { PhotoGalleryComponent } from './photo-gallery/photo-gallery.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: StudDashboardComponent },
@@ -31,7 +32,8 @@ const routes: Routes = [
   {path: 'important-links', component:ImportantLinksComponent},
   {path: 'event' , component:EventComponent},
   {path: 'attendance-leave' , component:AttendanceLeaveComponent},
-  {path: 'daily-task' , component:DailyTaskComponent}
+  {path: 'daily-task' , component:DailyTaskComponent},
+  {path: 'photo-gallery' , component:PhotoGalleryComponent}
 ];
 
 @NgModule({

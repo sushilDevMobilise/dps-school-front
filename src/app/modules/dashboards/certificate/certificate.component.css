@@ -1,22 +1,22 @@
-.certificate{
+/* .certificate{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 19px;
-}
+} */
 
 .certificate-card {
-    width: 216px;
+    /* width: 216px;
     height: 238px;
-    position: relative;
+    position: relative; */
     background: #F0F0F0;
     border-radius: 4px;
     overflow: hidden;
     border: 1px solid #E0E0E0;
 }
 
-.certificate-info {
+/* .certificate-info {
     width: 216px;
     height: 88px;
     position: absolute;
@@ -46,9 +46,9 @@
     display: flex;
     flex-direction: column;
     gap: 6px;
-}
+} */
 
-.certificate-earned {
+/* .certificate-earned {
     color: var(--2a295c, #2A295C);
     font-size: 12px;
     font-weight: 400;
@@ -77,9 +77,31 @@
 }
 
 .certificate-image {
-    /* width: 174px;
-    height: 123px; */
+     width: 174px;
+    height: 123px; 
     position: absolute;
     left: 21px;
     top: 15px;
+} */
+
+.eventdays{
+    color: var(--2a295c, #2A295C);
+    font-size: 14px;
+    font-weight: 500;
+    height: 20px;
+align-self: stretch;
+}
+.eventdate{
+    height: 13px;
+    align-self: stretch;
+    color: rgba(42, 41, 92, 0.60);
+font-size: 11px;
+font-weight: 500;
+}
+.earndate{
+    color: var(--2a295c, #2A295C);
+font-size: 12px;
+font-weight: 400;
+height: 13px;
+align-self: stretch;
 }
