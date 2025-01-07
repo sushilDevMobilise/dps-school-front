@@ -105,5 +105,12 @@ export class HeaderComponent {
       icon : "assets/img/noti.svg",
       link : "/daily-task"
     },
+    {
+      id : 16,
+      menu_desc : "Photo Gallery",
+      icon : "assets/img/noti.svg",
+      link : "/photo-gallery"
+    },
+    
   ];
 }

@@ -1,0 +1,115 @@
+.view-profile-card {
+  display: flex;
+  gap: 34px;
+  align-items: center;
+  background-color: white;
+  border-radius: 6px;
+
+}
+
+.view-profile-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.view-profile-image {
+  border-radius: 50%;
+  border: 1px solid #e0e0e0;
+}
+
+.view-profile-status-badge {
+  background-color: #283897;
+  border-radius: 4px;
+  position: absolute;
+  top: 75px;
+  left: 30px;
+}
+.view-profile-details {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .view-profile-detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .view-profile-label {
+    font-size: 14px;
+    color: #2a295c;
+    font-weight: 400;
+    flex: 0 0 120px; 
+  }
+  
+  .view-profile-value {
+    font-size: 14px;
+    color: #2a295c;
+    font-weight: 600;
+    text-align: left;
+    flex: 1;
+    word-wrap: break-word;
+  }
+  .student-container {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.student-photo-container {
+  width: 90px;
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-photo {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  border: 1px solid #e0e0e0;
+}
+
+.student-badge {
+  background: #283897;
+  border-radius: 4px;
+  margin-top: 80px;
+}
+
+
+.student-details {
+  display: flex;
+  gap: 30px;
+}
+
+.student-column {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.student-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.student-label {
+  width: 100px;
+  color: #2a295c;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.student-value {
+  width: 250px;
+  color: #2a295c;
+  font-size: 14px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
