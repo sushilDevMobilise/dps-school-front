@@ -30,53 +30,54 @@
           </div>
         </div>
       </div>
-      <div class="query  mt-3">
-        <div class="header p-2 px-3 border-bottom  d-flex justify-content-between align-items-center">
+      <div class="query mt-3">
+        <div class="header p-2 px-3 border-bottom d-flex justify-content-between align-items-center">
           <p class="query-title mb-0">Transport</p>
           <p class="query-date mb-0">23 Dec 2024</p>
-
         </div>
-        <!-- <div class="query-header">
-              <p class="query-title mb-0">Transport</p>
-              <p class="query-date mb-0">23 Dec 2024</p>
-            </div> -->
-        <div class="query-footer">
-          <div class="query-responses">
-            <p class="query-response-count mb-0">Responses</p>
+      
+        <div class="col-12 query-footer px-3 d-flex justify-content-between align-items-center border-top">
+          <!-- Responses Section -->
+          <div class="query-responses d-flex align-items-center">
+            <p class="query-response-count mb-0 me-2">Responses</p>
             <p class="query-response-badge mb-0">4</p>
           </div>
-          <div class="query-view-all">
-            <p class="query-view-text mb-0">View all Responses</p>
+      
+          <!-- View All Responses Section -->
+          <div class="query-view-all d-flex align-items-center">
+            <p class="query-view-text mb-0 me-2">View all Responses</p>
             <button (click)="toggleImageRotation()" type="button" class="btn">
-              <img [class.rotate]="isRotated" src="assets/img/Notidash/flowbite_angle-down-outline.svg"
-                alt="Arrow Icon">
+              <img [class.rotate]="isRotated" src="assets/img/Notidash/flowbite_angle-down-outline.svg" alt="Arrow Icon">
             </button>
           </div>
         </div>
-
-        <div class="query-subcategory">
+      
+        <div class="query-subcategory p-2 px-3">
           <p class="query-subcategory-title mb-0">Sub Category</p>
           <p class="query-subcategory-content mb-0">Bus root</p>
         </div>
-        <div class="query-query">
+      
+        <div class="query-query p-2 px-3">
           <p class="query-query-title mb-0">Query</p>
           <p class="query-query-content pe-3 mb-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod, justo ut tincidunt viverra, lorem
-            nisi volutpat erat, a tincidunt augue neque non risus. Integer facilisis, velit non scelerisque sagittis,
-            elit lacus convallis turpis, non dapibus eros nisi at odio. Sed vitae ligula vel turpis fermentum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod, justo ut tincidunt viverra, lorem nisi
+            volutpat erat, a tincidunt augue neque non risus. Integer facilisis, velit non scelerisque sagittis, elit lacus
+            convallis turpis, non dapibus eros nisi at odio. Sed vitae ligula vel turpis fermentum.
           </p>
         </div>
-        <div class="query-attachments">
+      
+        <div class="query-attachments p-2 px-3">
           <p class="query-attachments-title mt-2 mb-0">Attachments</p>
-          <div class="query-attachment-item">
+          <div class="query-attachment-item d-flex align-items-center justify-content-between">
             <div class="query-attachment-info">
               <p class="query-attachment-name mb-0">Bus root.zip</p>
               <p class="query-attachment-size mb-0">5.2 MB</p>
             </div>
-            <img src="assets\img\query\bx_download.svg" alt="">
+            <img src="assets/img/query/bx_download.svg" alt="">
           </div>
         </div>
       </div>
+      
       <div *ngIf="showCardField" class="view-all-response">
         <!--------------card 1 design------------->
         <div class="dps-card-view">

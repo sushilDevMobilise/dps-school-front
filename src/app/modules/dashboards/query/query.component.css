@@ -104,8 +104,6 @@ line-height: 24px; /* 184.615% */
   } */
   
   .query-footer {
- 
-    left: 25px;
     top: 330px;
     position: absolute;
     display: flex;

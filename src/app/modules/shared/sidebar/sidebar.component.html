@@ -23,29 +23,39 @@
       <div class="menu-divider"></div>
     </div>
     <li *ngFor="let item of menuArr" class="menu-item">
+      <!-- Parent menu items -->
       <div
         class="menu-header"
         *ngIf="item.children"
         (click)="toggleMenu(item.id)"
         [attr.data-id]="item.id"
       >
-        <!-- <img [src]="item.icon" [alt]="item.menu_desc + ' Icon'" /> -->
+        <!-- Icon for parent menu -->
+        <img *ngIf="item.icon" [src]="item.icon" [alt]="item.menu_desc + ' Icon'" class="menu-icon me-2" />
         <span>{{ item.menu_desc }}</span>
-        <span class="arrow"> <img src="assets\img\sidebar\mingcute_down-line.svg" class="ms-2" alt=""> </span>
+        <span class="arrow">
+          <img src="assets/img/sidebar/mingcute_down-line.svg" class="ms-2" alt="Expand/Collapse" />
+        </span>
       </div>
+    
+      <!-- Parent menu item without children -->
       <a *ngIf="!item.children" [routerLink]="item.link">
-        <img src="assets\img\sidebar\radix-icons_dashboard.svg" class="me-1" alt="">
-        <!-- <img [src]="item.icon" [alt]="item.menu_desc + ' Icon'" /> -->
+        <!-- Icon for standalone menu -->
+        <img *ngIf="item.icon" [src]="item.icon" [alt]="item.menu_desc + ' Icon'" class="menu-icon me-1" />
         <span>{{ item.menu_desc }}</span>
       </a>
+    
+      <!-- Child menu -->
       <ul *ngIf="item.children" class="child-menu" [id]="'child-menu-' + item.id" style="display: none;">
         <li *ngFor="let child of item.children">
           <a [routerLink]="child.link">
-             <!-- <img [src]="child.icon" [alt]="child.menu_desc + ' Icon'" />  -->
+            <!-- Icon for child menu -->
+            <img *ngIf="child.icon" [src]="child.icon" [alt]="child.menu_desc + ' Icon'" class="child-icon me-1" />
             <span>{{ child.menu_desc }}</span>
           </a>
         </li>
       </ul>
     </li>
+    
   </ul>
 </div>

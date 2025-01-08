@@ -102,6 +102,13 @@ background: var(--Color-Primary, #283897);
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+canvas {
+  display: block;
+  margin: auto;
+  height: 275px; /* Set the desired height */
+  width: auto; /* Adjust width automatically */
+}
+
    /* table tr:last-child {
     border-bottom: none;
   }
