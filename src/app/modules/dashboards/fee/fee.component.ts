@@ -28,7 +28,7 @@ export class FeeComponent implements AfterViewInit {
       },
       options: {
         responsive: true,
-        cutout: '60%', // Makes the donut thinner
+        cutout: '55%', // Makes the donut thinner
         plugins: {
           legend: {
             position: 'right',

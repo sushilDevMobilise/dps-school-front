@@ -1,26 +1,19 @@
 .btntext {
   border-radius: 4px;
   border: 1px solid var(--Color-Light-Blue, #7e8acc);
-  background: #fff;
 }
 .dropdown-item {
   color: var(--2a295c, #2a295c);
   font-size: 13px;
-  font-weight: 500;
-  display: flex;
   height: 33px;
   padding: 0px 10px;
-  align-items: center;
-  gap: 15px;
-  align-self: stretch;
-  border-radius: 4px;
+  font-weight: 500;
+ border-radius: 4px;
 }
 .year {
   color: rgba(42, 41, 92, 0.6);
-  text-align: center;
   font-size: 14px;
-
-  font-weight: 500;
+ font-weight: 500;
   line-height: 24px; /* 171.429% */
 }
 .homework-item {
@@ -486,7 +479,6 @@
   text-align: center;
   color: rgba(42, 41, 92, 0.6);
   font-size: 16px;
-  font-family: Open Sans, sans-serif;
   font-weight: 600;
   line-height: 24px;
   word-wrap: break-word;
@@ -496,7 +488,6 @@
   text-align: center;
   color: #2a295c;
   font-size: 16px;
-  font-family: Open Sans, sans-serif;
   font-weight: 600;
   line-height: 24px;
   word-wrap: break-word;
@@ -556,7 +547,6 @@
 .fac-name {
   color: #2a295c;
   font-size: 16px;
-  font-family: Open Sans, sans-serif;
   font-weight: 500;
   word-wrap: break-word;
 }
@@ -565,7 +555,6 @@
   opacity: 0.7;
   color: #2a295c;
   font-size: 12px;
-  font-family: Open Sans, sans-serif;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -597,7 +586,6 @@
 .fac-phone-number {
   color: #2a295c;
   font-size: 14px;
-  font-family: Open Sans, sans-serif;
   font-weight: 500;
   word-wrap: break-word;
 }

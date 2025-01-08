@@ -105,7 +105,7 @@ background: var(--Color-Primary, #283897);
 canvas {
   display: block;
   margin: auto;
-  height: 275px; /* Set the desired height */
+  height: 275px; 
   width: auto; /* Adjust width automatically */
 }
 
