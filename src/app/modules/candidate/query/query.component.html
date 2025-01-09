@@ -1,0 +1,432 @@
+<div class="main-content p-3">
+    <h5 class=" text">Query</h5>
+    <div class="row">
+      <div class="col-md-8 col">
+        <div class="header d-flex justify-content-between align-items-center">
+          <button type="button" class="btn querry" data-bs-toggle="modal" data-bs-target="#exampleModal">Add
+            Query</button>
+          <div class="search-container">
+            <div class="search-content">
+              <img src="assets\img\imp-con\magnifier.svg" alt="">
+              <div class="search-text">Search</div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div class=" search-container mt-0 btntext " type="" id="dropdownMenuButton" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              23 Jul 2024 - 23 Aug 2024 <img src="assets\img\query\tabler_calendar.svg" alt="">
+            </div>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item btntext" href="#">23 Jul 2024 - 23 Aug 2024</a></li>
+              <li><a class="dropdown-item btntext" href="#">23 Jul 2024 - 23 Aug 2024</a></li>
+              <li><a class="dropdown-item btntext" href="#">23 Jul 2024 - 23 Aug 2024</a></li>
+              <li><a class="dropdown-item btntext" href="#">23 Jul 2024 - 23 Aug 2024</a></li>
+              <li><a class="dropdown-item btntext" href="#">23 Jul 2024 - 23 Aug 2024</a></li>
+            </ul>
+          </div>
+          <div class="search-containeer">
+            <div class="search-content">
+              <div class="search-texxt">Pending <img src="assets\img\query\Chevron.svg" alt=""> </div>
+            </div>
+          </div>
+        </div>
+        <div class="query mt-3">
+          <div class="header p-2 px-3 border-bottom d-flex justify-content-between align-items-center">
+            <p class="query-title mb-0">Transport</p>
+            <p class="query-date mb-0">23 Dec 2024</p>
+          </div>
+        
+          <div class="col-12 query-footer px-3 d-flex justify-content-between align-items-center border-top">
+            <!-- Responses Section -->
+            <div class="query-responses d-flex align-items-center">
+              <p class="query-response-count mb-0 me-2">Responses</p>
+              <p class="query-response-badge mb-0">4</p>
+            </div>
+        
+            <!-- View All Responses Section -->
+            <div class="query-view-all d-flex align-items-center">
+              <p class="query-view-text mb-0 me-2">View all Responses</p>
+              <button (click)="toggleImageRotation()" type="button" class="btn">
+                <img [class.rotate]="isRotated" src="assets/img/Notidash/flowbite_angle-down-outline.svg" alt="Arrow Icon">
+              </button>
+            </div>
+          </div>
+        
+          <div class="query-subcategory p-2 px-3">
+            <p class="query-subcategory-title mb-0">Sub Category</p>
+            <p class="query-subcategory-content mb-0">Bus root</p>
+          </div>
+        
+          <div class="query-query p-2 px-3">
+            <p class="query-query-title mb-0">Query</p>
+            <p class="query-query-content pe-3 mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod, justo ut tincidunt viverra, lorem nisi
+              volutpat erat, a tincidunt augue neque non risus. Integer facilisis, velit non scelerisque sagittis, elit lacus
+              convallis turpis, non dapibus eros nisi at odio. Sed vitae ligula vel turpis fermentum.
+            </p>
+          </div>
+        
+          <div class="query-attachments p-2 px-3">
+            <p class="query-attachments-title mt-2 mb-0">Attachments</p>
+            <div class="query-attachment-item d-flex align-items-center justify-content-between">
+              <div class="query-attachment-info">
+                <p class="query-attachment-name mb-0">Bus root.zip</p>
+                <p class="query-attachment-size mb-0">5.2 MB</p>
+              </div>
+              <img src="assets/img/query/bx_download.svg" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div *ngIf="showCardField" class="view-all-response">
+          <!--------------card 1 design------------->
+          <div class="dps-card-view">
+            <div class="row">
+              <div class="col-md-1 col-lg-1">
+                <div class="user-view-profile img-1">
+                  <img src="assets\img\query\si_user-fill.svg" class="mt-1" alt="profile-image">
+                </div>
+              </div>
+              <div class="col-md-11 col-lg-11">
+  
+                <div class="card p-0">
+                  <div class="card-header dpscard-header d-flex justify-content-between align-items-center">
+                    <div class="left_div">
+                      <p class="mb-0 message">Updated by School - <span> June 04, 2024</span></p>
+                    </div>
+                    <div class="left_div">
+                      <p class="mb-0 message">#1</p>
+                    </div>
+  
+                  </div>
+                  <div class="card-body p-3 pr-0">
+                    <div class="row">
+                      <div class="col-lg-11 col-md-11">
+                        <p class="mb-0 message">
+                          Hi Shubham,<br>
+                          Lorem ipsum dolor sit amet com ac. Bibendum nunc id euismod ac imperdiet.
+                          Velit cursus nullam in sed sodales sed duis.
+                          Sit enim tortor mauris vel condimentum tristique.
+                        </p>
+                      </div>
+                      <div class="col-lg-1 col-md-1 text-right">
+                        <img src="assets\img\query\fa6-solid_message.svg" alt="message">
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+          <div class="dps-card-view">
+            <div class="row">
+              <div class="col-md-1 col-lg-1">
+                <div class="user-view-profile img-1">
+                  <img src="assets\img\query\si_user-fill.svg" class="mt-1" alt="profile-image">
+                </div>
+              </div>
+              <div class="col-md-11 col-lg-11">
+  
+                <div class="card p-0">
+                  <div class="card-header dpscard-header d-flex justify-content-between align-items-center">
+                    <div class="left_div">
+                      <p class="mb-0 message">Updated by School - <span> June 04, 2024</span></p>
+                    </div>
+                    <div class="left_div">
+                      <p class="mb-0 message">#2</p>
+                    </div>
+  
+                  </div>
+                  <div class="card-body p-3 pr-0">
+                    <div class="row">
+                      <div class="col-lg-11 col-md-11">
+                        <p class="mb-0 message">
+                          Hi Shubham,<br>
+                          Lorem ipsum dolor sit amet com ac. Bibendum nunc id euismod ac imperdiet.
+                          Velit cursus nullam in sed sodales sed duis.
+                          Sit enim tortor mauris vel condimentum tristique.
+                        </p>
+                      </div>
+                      <div class="col-lg-1 col-md-1 text-right">
+                        <img src="assets\img\query\fa6-solid_message.svg" alt="message">
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+          <div class="dps-card-view">
+            <div class="row">
+              <div class="col-md-1 col-lg-1">
+                <div class="user-view-profile img-1">
+                  <img src="assets\img\query\si_user-fill.svg" class="mt-1" alt="profile-image">
+                </div>
+              </div>
+              <div class="col-md-11 col-lg-11">
+  
+                <div class="card p-0">
+                  <div class="card-header dpscard-header d-flex justify-content-between align-items-center">
+                    <div class="left_div">
+                      <p class="mb-0 message">Updated by School - <span> June 04, 2024</span></p>
+                    </div>
+                    <div class="left_div">
+                      <p class="mb-0 message">#3</p>
+                    </div>
+  
+                  </div>
+                  <div class="card-body p-3 pr-0">
+                    <div class="row">
+                      <div class="col-lg-11 col-md-11">
+                        <p class="mb-0 message">
+                          Hi Shubham,<br>
+                          Lorem ipsum dolor sit amet com ac. Bibendum nunc id euismod ac imperdiet.
+                          Velit cursus nullam in sed sodales sed duis.
+                          Sit enim tortor mauris vel condimentum tristique.
+                        </p>
+                      </div>
+                      <div class="col-lg-1 col-md-1 text-right">
+                        <img src="assets\img\query\fa6-solid_message.svg" alt="message">
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+          <div class="dps-card-view">
+            <div class="row">
+              <div class="col-md-1 col-lg-1">
+                <div class="user-view-profile img-n">
+                  <img src="assets\img\query\si_user-fill.svg" class="mt-1" alt="profile-image">
+                </div>
+              </div>
+              <div class="col-md-11 col-lg-11">
+  
+                <div class="card p-0">
+                  <div class="card-header dpscard-header d-flex justify-content-between align-items-center">
+                    <div class="left_div">
+                      <p class="mb-0 message">Updated by School - <span> June 04, 2024</span></p>
+                    </div>
+                    <div class="left_div">
+                      <p class="mb-0 message">#4
+  
+                      </p>
+                    </div>
+  
+                  </div>
+                  <div class="card-body p-3 pr-0">
+                    <div class="row">
+                      <div class="col-lg-11 col-md-11">
+                        <p class="mb-0 message">
+                          Hi Shubham,<br>
+                          Lorem ipsum dolor sit amet com ac. Bibendum nunc id euismod ac imperdiet.
+                          Velit cursus nullam in sed sodales sed duis.
+                          Sit enim tortor mauris vel condimentum tristique.
+                        </p>
+                      </div>
+                      <div class="col-lg-1 col-md-1 text-right">
+                        <img src="assets\img\query\fa6-solid_message.svg" alt="message">
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+          <!-------------end card 1------------------>
+  
+          <div class="view-card-footer border-top">
+            <div class="dps-card-view">
+              <div class="row">
+                <div class="col-md-1 col-lg-1">
+                  <div class="user-view-profile img-n">
+                    <img src="assets\img\query\si_user-fill.svg" class="mt-1" alt="profile-image">
+                  </div>
+                </div>
+                <div class="col-md-11 col-lg-11">
+  
+                  <div class="">
+                    <div class="card-body p-0 pr-0">
+                      <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                          <div class="form-floating">
+                            <textarea class="form-control" placeholder="Type your message here..." id="floatingTextarea2"
+                              style="height: 100px"></textarea>
+  
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                          <div class="left_div">
+                            <button type="button" id="attachment" class="btn">Add Attachment</button>
+                          </div>
+                          <div class="right_div">
+                            <button type="button" id="submit" class="btn">Submit</button>
+                          </div>
+                        </div>
+  
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+  
+          </div>
+  
+  
+        </div>
+      </div>
+      <div class="col-md-4 col ">
+        <div class="card mt-3">
+          <div class="section">
+            <div class="icon-text">
+              <div class="icon transport-icon">
+                <img src="assets\img\query\carbon_bus.svg" alt="">
+                <!-- <div class="icon-shape transport-shape"></div> -->
+              </div>
+              <div class="text">Transport</div>
+            </div>
+            <div class="badge transport-badge">1</div>
+          </div>
+          <div class="divider"></div>
+          <div class="section">
+            <div class="icon-text">
+              <div class="icon studies-icon">
+                <img src="assets\img\query\mage_book.svg" alt="">
+              </div>
+              <div class="text">Studies Related</div>
+            </div>
+            <div class="badge studies-badge">1</div>
+          </div>
+          <div class="divider"></div>
+          <div class="section">
+            <div class="icon-text">
+              <div class="icon admin-icon">
+                <img src="assets\img\query\mage_user.svg" alt="">
+              </div>
+              <div class="text">Admin</div>
+            </div>
+            <div class="badge admin-badge">0</div>
+          </div>
+          <div class="divider"></div>
+          <div class="section">
+            <div class="icon-text">
+              <div class="icon fee-icon">
+                <img src="assets\img\query\akar-icons_reciept.svg" alt="">
+              </div>
+              <div class="text">Fee</div>
+            </div>
+            <div class="badge fee-badge">0</div>
+          </div>
+          <div class="divider"></div>
+          <div class="section">
+            <div class="icon-text">
+              <div class="icon report-icon">
+                <img src="assets\img\query\solar_card-linear.svg" alt="">
+              </div>
+              <div class="text">Report Card</div>
+            </div>
+            <div class="badge report-badge">0</div>
+          </div>
+          <div class="divider"></div>
+          <div class="section">
+            <div class="icon-text">
+              <div class="icon admin-icon">
+                <img src="assets\img\query\material-symbols-light_sick-outline.svg" alt="">
+              </div>
+              <div class="text">Sick Leave</div>
+            </div>
+            <div class="badge admin-badge">0</div>
+          </div>
+          <div class="divider"></div>
+          <div class="section">
+            <div class="icon-text">
+              <div class="icon feedback-icon">
+                <img src="assets\img\query\material-symbols-light_feedback-outline.svg" alt="">
+              </div>
+              <div class="text">General Feedback</div>
+            </div>
+            <div class="badge feedback-badge">0</div>
+          </div>
+  
+          <div class="divider"></div>
+          <div class="section">
+            <div class="icon-text">
+              <div class="icon general-icon">
+                <img src="assets\img\query\prime_question.svg" alt="">
+              </div>
+              <div class="text">General Query</div>
+            </div>
+            <div class="badge general-badge">0</div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header p-2 px-3">
+          <h5 class="modal-title" id="exampleModalLabel">Add Query</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="query-form">
+            <div class="form-group">
+              <label for="category" class="modal-text mb-2">Select category</label>
+              <select id="category" id="form-control" class="form-control mb-2">
+                <option value="" disabled selected >Select</option>
+                <option value="1" class="modal-text">Transport</option>
+                <option value="2" class="modal-text">Studies Related</option>
+                <option value="3" class="modal-text">Admin</option>
+                <option value="4" class="modal-text">Fee</option>
+                <option value="5" class="modal-text">Report Card</option>
+                <option value="6" class="modal-text">Sick Leave</option>
+                <option value="7" class="modal-text">General Feedback</option>
+                <option value="8" class="modal-text">General Query</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="sub-category" class="modal-text mb-2">Select sub category  </label>
+              <select id="sub-category" id="form-control" class="form-control mb-2" >
+                <option value="" disabled selected >Select</option>
+                <option value="1" class="modal-text">Sub Category 1</option>
+                <option value="2" class="modal-text">Sub Category 2</option>
+                <option value="3" class="modal-text">Sub Category 3</option>
+                <option value="4" class="modal-text">Sub Category 4</option>
+              </select>
+            </div>
+            <div  class="form-group mb-2">
+              <label for="query" class="modal-text mb-2">Write your Query</label>
+              <textarea id="query" class="form-control modal-text queryy" rows="4" placeholder="Type your query here..."></textarea>
+            </div>
+            <div class="form-group">
+              <label for="file" class="modal-text mb-2"  >Attach File</label>
+              
+              <div class="form-group">
+                <input type="file" id="file" class="form-control-file">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer p-1">
+          <button type="button" class="btn" id="cancel" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" id="submit" class="btn">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>

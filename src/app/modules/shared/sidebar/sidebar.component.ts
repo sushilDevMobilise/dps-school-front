@@ -19,11 +19,11 @@ type MenuItem = {
 })
 export class SidebarComponent {
   menuArr: MenuItem[] = [
-    { id: 1, menu_desc: 'Dashboard', icon: '', link: '/dashboard' },
+    { id: 1, menu_desc: 'Dashboard', icon: 'assets/img/sidebar/radix-icons_dashboard.svg', link: '/dashboard' },
     {
       id: 2,
       menu_desc: 'Academic Management',
-      icon: '', // Set your icon here
+      icon: 'assets/img/sidebar/ant-design_setting-outlined.svg', // Set your icon here
       children: [
         { id: 15, menu_desc: 'Daily Task', icon: '', link: '/daily-task' },
         { id: 3, menu_desc: 'Assignment', icon: '', link: '/assignment' },
@@ -35,7 +35,7 @@ export class SidebarComponent {
     {
       id: 3,
       menu_desc: 'Communication',
-      icon: '', // Set your icon here
+      icon: 'assets/img/sidebar/lets-icons_chat-plus.svg', // Set your icon here
       children: [
         { id: 16, menu_desc: 'Notice Board', icon: '', link: '/notice' },
         { id: 8, menu_desc: 'Important Contact', icon: '', link: '/important-contact' },
@@ -47,7 +47,7 @@ export class SidebarComponent {
     {
       id: 4,
       menu_desc: 'Record & Certifications',
-      icon: '', // Set your icon here
+      icon: 'assets/img/sidebar/tabler_certificate.svg', // Set your icon here
       children: [
         { id: 14, menu_desc: 'Attendance & Leave', icon: '', link: '/attendance-leave' },
         { id: 6, menu_desc: 'Certificate', icon: '', link: '/certificate' },
@@ -57,7 +57,7 @@ export class SidebarComponent {
     {
       id: 5,
       menu_desc: 'School Operations',
-      icon: '', // Set your icon here
+      icon: 'assets/img/sidebar/lucide_school.svg', // Set your icon here
       children: [
         { id: 17, menu_desc: 'Fee', icon: '', link: '/fee' },
         { id: 12, menu_desc: 'Holiday List', icon: '', link: '/holiday' },
@@ -73,4 +73,7 @@ export class SidebarComponent {
       menuElement.style.display = isVisible ? 'none' : 'block';
     }
   }
+
+  //1(1)
+  //active isVisible true
 }

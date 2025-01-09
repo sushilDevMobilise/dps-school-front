@@ -37,16 +37,9 @@
           <img src="assets/img/sidebar/mingcute_down-line.svg" class="ms-2" alt="Expand/Collapse" />
         </span>
       </div>
-    
-      <!-- Parent menu item without children -->
-      <a *ngIf="!item.children" [routerLink]="item.link">
-        <!-- Icon for standalone menu -->
-        <img *ngIf="item.icon" [src]="item.icon" [alt]="item.menu_desc + ' Icon'" class="menu-icon me-1" />
-        <span>{{ item.menu_desc }}</span>
-      </a>
-    
+
       <!-- Child menu -->
-      <ul *ngIf="item.children" class="child-menu" [id]="'child-menu-' + item.id" style="display: none;">
+      <ul *ngIf="item.children" class="child-menu"  [id]="'child-menu-' + item.id" style="display: none;">
         <li *ngFor="let child of item.children">
           <a [routerLink]="child.link">
             <!-- Icon for child menu -->
@@ -55,6 +48,13 @@
           </a>
         </li>
       </ul>
+    
+      <!-- Parent menu item without children -->
+      <a *ngIf="!item.children" [routerLink]="item.link">
+        <!-- Icon for standalone menu -->
+        <img *ngIf="item.icon" [src]="item.icon" [alt]="item.menu_desc + ' Icon'" class="menu-icon me-1" />
+        <span>{{ item.menu_desc }}</span>
+      </a>
     </li>
     
   </ul>

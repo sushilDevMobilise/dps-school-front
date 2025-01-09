@@ -1,15 +1,22 @@
 .sidebar {
     background-color: #f8f9fa;
     min-height: 100vh;
-    padding: 20px 10px;
+    padding: 20px 0px;
   }
   .sidebar .nav-link {
     color: #2a295c;
-   
+  
+    
   }
   .sidebar .nav-link.active {
-    color: #2a295c;
+    background: #283897;
+    color: #fff;
   }
+  .sidebar .nav-link:hover {
+    background: #F3F4F6;
+    color: #2a295c; 
+}
+
   .menu {
     color: var(--Color-Secondory, #2A295C);
 font-size: 12px;

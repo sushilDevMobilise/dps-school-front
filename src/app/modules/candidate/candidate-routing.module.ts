@@ -1,9 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CandLoginComponent } from './cand-login/cand-login.component';
+import { NoticeDashboardComponent } from './notice-dashboard/notice-dashboard.component';
+import { QueryComponent } from './query/query.component';
+import { CandResultComponent } from './cand-result/cand-result.component';
+import { CandAdmissionComponent } from './cand-admission/cand-admission.component';
 
 const routes: Routes = [
-  {path: '', component: CandLoginComponent}
+  {path: '', component: CandLoginComponent},
+  {path: 'notice-board', component:NoticeDashboardComponent},
+  {path: 'query', component:QueryComponent},
+  {path: 'result', component:CandResultComponent},
+  {path: 'admission', component:CandAdmissionComponent}
 ];
 
 @NgModule({

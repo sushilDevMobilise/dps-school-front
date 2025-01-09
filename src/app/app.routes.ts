@@ -12,5 +12,5 @@ export const routes: Routes = [
         path: 'candidate',
         component: CandFullComponent,
         loadChildren: () => import('./modules/candidate/candidate.module').then((m) => m.CandidateModule)
-    }
+    },
 ];

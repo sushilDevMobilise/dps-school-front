@@ -1,0 +1,224 @@
+<div class="main-content p-3">
+    <div class="header d-flex justify-content-between align-items-center">
+      <h5 class=" text">Notice Board</h5>
+  
+      <div class="dropdown">
+        <button 
+          class="btn btn-light mt-0 btntext dropdown-toggle" 
+          type="button" 
+          id="dropdownMenuButton" 
+          data-bs-toggle="dropdown" 
+          aria-expanded="false">
+          Past 3 Month <svg xmlns="http://www.w3.org/2000/svg" class="mb-1" width="19" height="18" viewBox="0 0 19 18" fill="none">
+            <path d="M12.5 2.25V5.25M6.5 2.25V5.25M3.5 8.25H15.5M8.75 11.25H9.5V13.5M3.5 5.25C3.5 4.85218 3.65804 4.47064 3.93934 4.18934C4.22064 3.90804 4.60218 3.75 5 3.75H14C14.3978 3.75 14.7794 3.90804 15.0607 4.18934C15.342 4.47064 15.5 4.85218 15.5 5.25V14.25C15.5 14.6478 15.342 15.0294 15.0607 15.3107C14.7794 15.592 14.3978 15.75 14 15.75H5C4.60218 15.75 4.22064 15.592 3.93934 15.3107C3.65804 15.0294 3.5 14.6478 3.5 14.25V5.25Z" stroke="#2A295C" stroke-opacity="0.9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#">Past 6 Month</a></li>
+          <li><a class="dropdown-item" href="#">2024</a></li>
+          <li><a class="dropdown-item" href="#">2023</a></li>
+          <li><a class="dropdown-item" href="#">2022</a></li>
+          <li><a class="dropdown-item" href="#">2021</a></li>
+        </ul>
+      </div>
+  
+  
+  
+  
+  
+    </div>
+    <div class="event-card mt-3">
+      <div class="event-content">
+        <div class="event-details">
+          <div class="event-icon blue-icon">
+            <div class="icon-container">
+              <div class="icon">
+                <img src="assets\img\Notidash\mingcute_announcement-line.svg" alt="announcement">
+                <!-- <div class="icon-part1"></div>
+                <div class="icon-part2"></div> -->
+              </div>
+            </div>
+          </div>
+          <div class="event-date-divider">
+            <div class="event-date">
+              11 Jul <br> 2024
+            </div>
+            <!-- <div class="bordeer" style="width: 60px; height: 0px; transform: rotate(90deg); transform-origin: 0 0; border: 3px #283897 solid"></div> -->
+          </div>
+          <div class="pipe blue"></div>
+          <div class="event-title">
+            Class Group Photograph Session:-2024-2025
+          </div>
+        </div>
+        <!-- <div class="arrow-icon"></div> -->
+        <!-- <button (click)="showCardForm()" type="button" class="btn">
+          <img src="assets\img\Notidash\flowbite_angle-down-outline.svg" alt="" [ngClass]="{ 'rotate': isRotated }" >
+        </button> -->
+        <button 
+          (click)="toggleImageRotation()" 
+          type="button" 
+          class="btn"
+        >
+          <img 
+            [class.rotate]="isRotated" 
+            src="assets/img/Notidash/flowbite_angle-down-outline.svg" 
+            alt="Arrow Icon"
+          >
+        </button>
+         
+      </div>
+    </div>
+        <div *ngIf="showCardField" class="notification-carrd">
+        <div class="noti-drop ">
+          Greetings! <br><br>
+          This is to inform you that the class group photograph is to be held on 
+          <b>Nursery To III :- 17/12/2024 (Tuesday)</b> <br><br>
+          <span class="noti-drop-highlight">🔸Note:-</span> Students have to come in proper school uniform (Green Track suit and White shoes).<br><br>
+          <span class="noti-drop-highlight">🔸Attendance is compulsory on the day.</span><br><br>
+          Regards, <br>
+          School Incharge
+        </div>
+        <div class="file-download">
+         <img src="assets\img\Notidash\material-symbols_download-rounded.svg" alt="downlode">
+          <div class="file-name">Instructions.zip</div>
+        </div>
+    </div>
+    
+  
+    <div class="event-card mt-3">
+      <div class="event-content">
+        <div class="event-details">
+          <div class="event-icon green-icon">
+            <div class="icon-container">
+              <div class="icon">
+                <img src="assets\img\Notidash\mingcute_announcement-line1.svg" alt="announcement">
+                <!-- <div class="icon-part1"></div>
+                <div class="icon-part2"></div> -->
+              </div>
+            </div>
+          </div>
+          <div class="event-date-divider">
+            <div class="event-date">
+              21 Jul <br> 2024
+            </div>
+           
+          </div>
+          <div class="pipe green"></div>
+          <div class="event-title">
+            World environment day program 
+          </div>
+        </div>
+        <!-- <div class="arrow-icon"></div> -->
+         <img src="assets\img\Notidash\flowbite_angle-down-outline.svg" alt="announcement">
+      </div>
+    </div>
+  
+    <div class="event-card mt-3">
+      <div class="event-content">
+        <div class="event-details">
+          <div class="event-icon orange-icon">
+            <div class="icon-container">
+              <div class="icon">
+                <img src="assets\img\Notidash\mingcute_announcement-line3.svg" alt="announcement">
+                <!-- <div class="icon-part1"></div>
+                <div class="icon-part2"></div> -->
+              </div>
+            </div>
+          </div>
+          <div class="event-date-divider">
+            <div class="event-date">
+              11 Aug <br> 2024
+            </div>
+            <div class="pipe orange"></div>
+          </div>
+          <div class="event-title">
+            Exam Preparation notification
+          </div>
+        </div>
+        <!-- <div class="arrow-icon"></div> -->
+         <img src="assets\img\Notidash\flowbite_angle-down-outline.svg" alt="announcement">
+      </div>
+    </div>
+  
+    <div class="event-card mt-3">
+      <div class="event-content">
+        <div class="event-details">
+          <div class="event-icon lblue-icon">
+            <div class="icon-container">
+              <div class="icon">
+                <img src="assets\img\Notidash\mingcute_announcement-line4.svg" alt="announcement">
+                <!-- <div class="icon-part1"></div>
+                <div class="icon-part2"></div> -->
+              </div>
+            </div>
+          </div>
+          <div class="event-date-divider">
+            <div class="event-date">
+              02 Sep <br> 2024
+            </div>
+            <div class="pipe light-blue"></div>
+          </div>
+          <div class="event-title">
+            Exam time table relese
+          </div>
+        </div>
+        <!-- <div class="arrow-icon"></div> -->
+         <img src="assets\img\Notidash\flowbite_angle-down-outline.svg" alt="announcement">
+      </div>
+    </div>
+  
+    <div class="event-card mt-3">
+      <div class="event-content">
+        <div class="event-details">
+          <div class="event-icon yellow-icon">
+            <div class="icon-container">
+              <div class="icon">
+                <img src="assets\img\Notidash\mingcute_announcement-line5.svg" alt="announcement">
+                <!-- <div class="icon-part1"></div>
+                <div class="icon-part2"></div> -->
+              </div>
+            </div>
+          </div>
+          <div class="event-date-divider">
+            <div class="event-date">
+              11 Sep <br> 2024
+            </div>
+          </div>
+          <div class="pipe yellow"></div>
+          <div class="event-title">
+            Online class preparation
+          </div>
+        </div>
+        <!-- <div class="arrow-icon"></div> -->
+         <img src="assets\img\Notidash\flowbite_angle-down-outline.svg" alt="">
+      </div>
+    </div>
+  
+    <div class="event-card mt-3">
+      <div class="event-content">
+        <div class="event-details">
+          <div class="event-icon orange-icon">
+            <div class="icon-container">
+              <div class="icon">
+                <img src="assets\img\Notidash\mingcute_announcement-line3.svg" alt="announcement">
+                <!-- <div class="icon-part1"></div>
+                <div class="icon-part2"></div> -->
+              </div>
+            </div>
+          </div>
+          <div class="event-date-divider">
+            <div class="event-date">
+              18 Sep <br> 2024
+            </div>
+           
+          </div>
+          <div class="pipe orange"></div>
+          <div class="event-title">
+            English Exam Preparation
+          </div>
+        </div>
+        <!-- <div class="arrow-icon"></div> -->
+         <img src="assets\img\Notidash\flowbite_angle-down-outline.svg" alt="">
+      </div>
+    </div>
+  </div>
