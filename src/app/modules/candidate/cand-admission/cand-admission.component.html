@@ -1,1 +1,141 @@
-<p>cand-admission works!</p>
+<div class="main-content p-3">
+    <div class="header">
+        <h3 class="mb-3 text">Admission</h3>
+    </div>
+    <div class="col-lg-12 mb-sm-3 mb-lg-0    ">
+        <div class="card mb-3">
+            <div class="card-body p-0 pb-3">
+                <div class="header mt-3 mb-2 px-3 border-bottom">
+                    <h5 class="card-title mb-3">Student Details</h5>
+                </div>
+                <div class="view-profile-card px-4">
+                    <div class="view-profile-image-container">
+                        <img src="assets\img\ViewProfile\34.png" alt="Profile Image" class="view-profile-image">
+                        <!-- <div class="view-profile-status-badge">
+                            <img src="assets\img\ViewProfile\akar-icons_edit.svg" alt="icon_edit">
+                        </div> -->
+                    </div>
+                    <div class="view-profile-details">
+                        <div class="view-profile-detail-row">
+                            <p class="view-profile-label mb-0">Name</p>
+                            <p class="view-profile-value mb-0">Ram</p>
+                        </div>
+                        <div class="view-profile-detail-row">
+                            <p class="view-profile-label mb-0">Class</p>
+                            <p class="view-profile-value mb-0">10th</p>
+                        </div>
+                        <div class="view-profile-detail-row">
+                            <p class="view-profile-label mb-0">Gender</p>
+                            <p class="view-profile-value mb-0">Male</p>
+                        </div>
+                        <div class="view-profile-detail-row">
+                            <p class="view-profile-label mb-0">Registration No.</p>
+                            <p class="view-profile-value mb-0">EN251010</p>
+                        </div>
+                        <div class="view-profile-detail-row">
+                            <p class="view-profile-label mb-0">Mobile No</p>
+                            <p class="view-profile-value mb-0">9999999999</p>
+                        </div>
+                        <div class="view-profile-detail-row">
+                            <p class="view-profile-label mb-0">Email Id</p>
+                            <p class="view-profile-value mb-0">rammobilise.co.in</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body p-0" id="card-body">
+                    <div class="header  d-flex justify-content-between align-items-center mb-2">
+                        <div class="col-12 d-flex flex-column">
+                            <!-- Tabs Navigation -->
+                            <div class="nav nav-pills px-3 border-bottom" id="v-pills-tab" role="tablist">
+                                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                                    aria-selected="true">Download Admission Form (1)</button>
+                                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-profile" type="button" role="tab"
+                                    aria-controls="v-pills-profile" aria-selected="false">Uplode Filled Form
+                                    (2)</button>
+                            </div>
+
+                            <!-- Tabs Content -->
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <!-- Attendance Tab -->
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                    aria-labelledby="v-pills-home-tab">
+                                    <div class="d-flex flex-wrap align-items-center mb-3">
+                                    </div>
+                                    <h5 class="Instruction-heading px-3 mb-0">Instructions</h5>
+                                    <ol class="list-group list-group-numbered" id="list-group">
+                                        <li class="list-group-item">Click here to download the admission form. <button
+                                                type="button" style="
+    border: 1px solid #2a295c;" class="btn ms-2 px-3"><img src="assets/img/query/bx_download.svg" alt=""></button>
+                                        </li>
+                                        <li class="list-group-item">Review the form and fill the blank fields.
+                                        </li>
+                                        <li class="list-group-item">Parents need to sign the form and upload the scanned
+                                            copy in the next section.</li>
+                                        <li class="list-group-item">Bring the printed hard copy and the signed copy of
+                                            the form to the school fees counter along with original copy of the
+                                            documents uploaded at the time of registration.</li>
+                                    </ol>
+                                    <button type="button" class="btn">
+                                        <div
+                                            class="downlode-application-item ms-3 mt-3 d-flex align-items-center justify-content-between">
+                                            <div class="downlode-application">
+                                                <p class="downlode-application-name mb-0">Next</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+
+                                <!-- Leave Tab -->
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                    aria-labelledby="v-pills-profile-tab">
+                                    <div class="d-flex flex-wrap align-items-center mb-3">
+                                        <!-- Search Containers -->
+                                        <h5 class="Instruction-heading px-3 mt-3 mb-0">Instructions</h5>
+                                        <ol class="list-group list-group-numbered" id="list-group">
+                                            <li class="list-group-item">Upload the signed copy of the form.
+                                            </li>
+                                            <li class="list-group-item">Bring the printed hard copy and the signed copy
+                                                of the form to the school fees counter along with original copy of the
+                                                documents uploaded at the time of registration. </li>
+                                            <li class="list-group-item">Once your form is approved by the school
+                                                authorities your next section will be activated to pay the admission
+                                                fees.
+                                            </li>
+                                            <li class="list-group-item">After the successfull payment of the admission
+                                                fees, your ward will be alloted the admission number.</li>
+                                        </ol>
+                                        <div>
+                                            <h4 class="Instruction-heading px-3 mt-3 mb-0">Uplode scanned Copy of the
+                                                signed form</h4>
+                                            <input type="file" id="myfile" class="px-3 mt-3" name="myfile">
+                                            <div>
+                                            <button type="button" class="btn">
+                                                <div
+                                                    class="downlode-application-item ms-1 mt-3 d-flex align-items-center justify-content-between">
+                                                    <div class="downlode-application">
+                                                        <p class="downlode-application-name mb-0">Previous</p>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

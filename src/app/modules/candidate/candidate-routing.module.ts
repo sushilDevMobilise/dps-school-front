@@ -5,13 +5,15 @@ import { NoticeDashboardComponent } from './notice-dashboard/notice-dashboard.co
 import { QueryComponent } from './query/query.component';
 import { CandResultComponent } from './cand-result/cand-result.component';
 import { CandAdmissionComponent } from './cand-admission/cand-admission.component';
+import { CandPaymentReceiptComponent } from './cand-payment-receipt/cand-payment-receipt.component';
 
 const routes: Routes = [
   {path: '', component: CandLoginComponent},
   {path: 'notice-board', component:NoticeDashboardComponent},
   {path: 'query', component:QueryComponent},
   {path: 'result', component:CandResultComponent},
-  {path: 'admission', component:CandAdmissionComponent}
+  {path: 'admission', component:CandAdmissionComponent},
+  {path: 'payment-receipt' , component:CandPaymentReceiptComponent}
 ];
 
 @NgModule({

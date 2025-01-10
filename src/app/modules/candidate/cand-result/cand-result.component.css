@@ -1,0 +1,115 @@
+.main-content{
+    min-height: 100%;
+}
+.view-profile-card {
+    display: flex;
+    align-items: center; 
+    gap: 3rem;
+  }
+  button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .view-profile-image-container {
+    position: relative;
+    flex-shrink: 0; 
+  }
+  
+  .view-profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .view-profile-image {
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+  }
+  .view-profile-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .view-profile-detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0;
+  }
+  
+  .view-profile-label {
+    margin-right: 1rem;
+    width: 100px; 
+    color: var(--Color-Secondory, #2a295c);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .view-profile-value {
+    flex: 1;
+    color: var(--Color-Secondory, #2a295c);
+    font-size: 14px;
+    font-weight: 600;
+  }
+   .score-heading{
+    color: #2a295c;
+    font-weight: 600;
+  }
+  
+th {
+    color: #2a295c;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
+    text-transform: capitalize;
+  }
+  .table > :not(:first-child) {
+    border-top:none;
+  }
+  .row-head {
+    background: #e7e9f7;
+    
+  }
+  td {
+    color: #2a295c;
+    font-size: 14px;
+    font-style: normal;
+    background: #fff;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+  }
+  
+    table tr td,
+    table tr th{
+      border-left: none;
+    }
+    table tr td,
+    table tr th{
+      border-right: none; 
+  }
+  table tr td:first-child,
+  table tr th:first-child {
+    border-left: 1px solid #DEE2E6; /* Start border */
+  }
+  table tr td:last-child,
+  table tr th:last-child {
+    border-right: 1px solid #DEE2E6; /* End border */
+  }
+  .alert-text{
+    color: red;
+    font-size: 14px;
+  }
+  .result-header{
+    color: #2a295c;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .result-status{
+    color: #2a295c;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  #paybutton{
+    color: #2a295c;
+    border: 1px solid #2a295c;
+    padding: 5px 20px;
+  }

@@ -1,0 +1,12 @@
+#print-button{
+    color: #2a295c;
+    border-radius: 4px;
+border: 1px solid var(--Color-Light-Blue, #7E8ACC); 
+}
+.fee-receipt{
+    color: #2a295c;
+    font-weight: 600;
+}
+th , td{
+    font-size: 13px;
+}

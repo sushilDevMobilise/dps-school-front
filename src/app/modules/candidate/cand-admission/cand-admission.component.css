@@ -1,0 +1,84 @@
+.main-content{
+    min-height: 100%;
+}
+.view-profile-card {
+    display: flex;
+    align-items: center; 
+    gap: 3rem;
+  }
+  button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .view-profile-image-container {
+    position: relative;
+    flex-shrink: 0; 
+  }
+  
+  .view-profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .view-profile-image {
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+  }
+  .view-profile-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .view-profile-detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0;
+  }
+  
+  .view-profile-label {
+    margin-right: 1rem;
+    width: 100px; 
+    color: var(--Color-Secondory, #2a295c);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .view-profile-value {
+    flex: 1;
+    color: var(--Color-Secondory, #2a295c);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .downlode-application-item {
+    color: rgba(42, 41, 92, 0.90);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
+    padding: 8px 24px;
+    border: 1px #283897 solid;
+    border-radius: 6px;
+  }
+  .nav-pills .nav-link, .nav-pills .show > .nav-link {
+    color: #2a295c;
+}
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #2a295c;
+    background-color: #fff;
+    border-bottom: 3px solid #2a295c;
+    border-radius: 0%;
+}
+.list-group-item {
+    border: none;
+  }
+  .Instruction-heading{
+    color: #2a295c;
+    font-weight: 600;
+  }  
+  .list-group-item{
+    color: #2a295c;
+  }
+  .list-group-numbered > li::before {
+    content: counters(section, ".") ". ";
+    counter-increment: section;
+    font-weight: 600;
+}

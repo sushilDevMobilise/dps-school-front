@@ -7,10 +7,11 @@ import { NoticeDashboardComponent } from './notice-dashboard/notice-dashboard.co
 import { QueryComponent } from './query/query.component';
 import { CandResultComponent } from './cand-result/cand-result.component';
 import { CandAdmissionComponent } from './cand-admission/cand-admission.component';
+import { CandPaymentReceiptComponent } from './cand-payment-receipt/cand-payment-receipt.component';
 
 
 @NgModule({
-  declarations: [CandLoginComponent,NoticeDashboardComponent,QueryComponent,CandResultComponent,CandAdmissionComponent],
+  declarations: [CandLoginComponent,NoticeDashboardComponent,QueryComponent,CandResultComponent,CandAdmissionComponent,CandPaymentReceiptComponent],
   imports: [
     CommonModule,
     CandidateRoutingModule
