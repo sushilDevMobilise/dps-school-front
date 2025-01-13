@@ -17,45 +17,46 @@
   </div> -->
 
   <div class="sidebar ">
-  <ul class="menu mt-4">
-    <div class="meenu mb-2">
-      <div class="menu-text">Menu</div>
-      <div class="menu-divider"></div>
-    </div>
-    <li *ngFor="let item of menuArr" class="menu-item">
-      <!-- Parent menu items -->
-      <div
-        class="menu-header"
-        *ngIf="item.children"
-        (click)="toggleMenu(item.id)"
-        [attr.data-id]="item.id"
-      >
-        <!-- Icon for parent menu -->
-        <img *ngIf="item.icon" [src]="item.icon" [alt]="item.menu_desc + ' Icon'" class="menu-icon me-2" />
-        <span>{{ item.menu_desc }}</span>
-        <span class="arrow">
-          <img src="assets/img/sidebar/mingcute_down-line.svg" class="ms-2" alt="Expand/Collapse" />
-        </span>
+    <ul class="menu mt-4">
+      <div class="meenu px-2 mb-2">
+        <div class="menu-text">Menu</div>
+        <div class="menu-divider"></div>
       </div>
-
-      <!-- Child menu -->
-      <ul *ngIf="item.children" class="child-menu"  [id]="'child-menu-' + item.id" style="display: none;">
-        <li *ngFor="let child of item.children">
-          <a [routerLink]="child.link">
-            <!-- Icon for child menu -->
-            <img *ngIf="child.icon" [src]="child.icon" [alt]="child.menu_desc + ' Icon'" class="child-icon me-1" />
-            <span>{{ child.menu_desc }}</span>
-          </a>
-        </li>
-      </ul>
+      <li *ngFor="let item of menuArr" class="menu-item">
+        <!-- Parent menu items -->
+        <div
+          class="menu-header d-flex align-items-center justify-content-between"
+          *ngIf="item.children"
+          (click)="toggleMenu(item.id)"
+          [attr.data-id]="item.id"
+        >
+          <!-- Left-aligned content -->
+          <div class="d-flex align-items-center">
+            <img *ngIf="item.icon" [src]="item.icon" [alt]="item.menu_desc + ' Icon'" class="menu-icon me-2" />
+            <span>{{ item.menu_desc }}</span>
+          </div>
+          <!-- Right-aligned down-line SVG -->
+          <span class="arrow">
+            <img src="assets/img/sidebar/mingcute_down-line.svg" class="ms-2" alt="Expand/Collapse" />
+          </span>
+        </div>
     
-      <!-- Parent menu item without children -->
-      <a *ngIf="!item.children" [routerLink]="item.link">
-        <!-- Icon for standalone menu -->
-        <img *ngIf="item.icon" [src]="item.icon" [alt]="item.menu_desc + ' Icon'" class="menu-icon me-1" />
-        <span>{{ item.menu_desc }}</span>
-      </a>
-    </li>
+        <!-- Child menu -->
+        <ul *ngIf="item.children" class="child-menu" [id]="'child-menu-' + item.id" style="display: none;">
+          <li *ngFor="let child of item.children">
+            <a [routerLink]="child.link">
+              <img *ngIf="child.icon" [src]="child.icon" [alt]="child.menu_desc + ' Icon'" class="child-icon me-1" />
+              <span>{{ child.menu_desc }}</span>
+            </a>
+          </li>
+        </ul>
     
-  </ul>
+        <!-- Parent menu item without children -->
+        <a *ngIf="!item.children" [routerLink]="item.link" class="d-flex align-items-center">
+          <img *ngIf="item.icon" [src]="item.icon" [alt]="item.menu_desc + ' Icon'" class="menu-icon me-1" />
+          <span>{{ item.menu_desc }}</span>
+        </a>
+      </li>
+    </ul>
+    
 </div>

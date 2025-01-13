@@ -1,0 +1,11 @@
+#print-button{
+    color: #2a295c;
+    border-radius: 4px;
+border: 1px solid var(--Color-Light-Blue, #7E8ACC); 
+}
+th , td{
+    font-size: 12px;
+}
+.table > :not(:first-child) {
+    border-top:none;
+  }
